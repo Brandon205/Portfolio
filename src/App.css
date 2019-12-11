@@ -1,22 +1,91 @@
+nav {
+  background-color: rgba(47, 47, 47, 0.541);
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav a:hover {
+  color: rgb(49, 49, 49)
+}
+
+main {
+  text-align: center;
+  background-color: #2F2F2F;
+}
+
+header {
+  background-color: rgba(75, 75, 75, 0.541);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.who-i-am {
+  text-align: center;
+  background-color: rgb(165, 165, 165);
+  border-radius: 15px;
+  box-shadow: 5px 7px 10px gray;
+  width: 85vw;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*                                           PROJECT CSS                                            */
+.projects {
+  text-align: center;
+}
+
+.project {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.project-container {
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  align-items: space-evenly;
 }
 
-.App-link {
-  color: #09d3ac;
+.project-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
 }
