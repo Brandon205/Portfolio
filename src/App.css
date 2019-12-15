@@ -39,6 +39,19 @@ header {
 }
 
 /*                                           PROJECTS CSS                                            */
+.project-container {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  min-height: 800px;
+  grid-template-rows: 200px 1fr 200px 1fr;
+  grid-template-columns: 400px 1fr 400px;
+  grid-template-areas: "img1 . img2"
+  "desc1 . desc2"
+  "img3 . img4"
+  "desc3 . desc4";
+}
+
 .project {
   width: 400px;
   height: 350px;
@@ -47,15 +60,20 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  grid-area: img;
 }
 
-.project-container {
-  width: 90vw;
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-content: space-evenly;
+.project1 {
+  grid-area: img1;
+}
+.project2 {
+  grid-area: img2;
+}
+.project3 {
+  grid-area: img3;
+}
+.project4 {
+  grid-area: img4;
 }
 
 .project-container div {
@@ -89,8 +107,21 @@ header {
   filter: blur(5px);
 }
 
-.project-description {
-  
+.project1-description {
+  grid-area: desc1;
+}
+.project2-description {
+  grid-area: desc2;
+}
+.project3-description {
+  grid-area: desc3;
+}
+.project4-description {
+  grid-area: desc4;
+}
+
+.space {
+  grid-area: extra-space;
 }
 
 .button {
@@ -109,19 +140,6 @@ header {
   color: black;
   font-size: 1.1em;
 }
-
-/* #project-1 {
-  background-image: url('/img/cubeX.png');
-}
-#project-2 {
-  background-image: url('/img/potterGo.png');
-}
-#project-3 {
-  background-image: url('/img/adventureAwaits.png');
-}
-#project-4 {
-  background-image: url('/img/trailWeather.png');
-} */
 
 /*                                           WHOIAM CSS                                            */
 /*                                           BOUNCY CSS                                            */
