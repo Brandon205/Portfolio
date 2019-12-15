@@ -26,6 +26,7 @@ export default function Projects() {
               <a href="https://github.com/Brandon205/cubeX" rel="noopener-noreferrer">Code</a>
             </div>
           </div>
+          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p>
         </>
       );
       break;
@@ -74,7 +75,6 @@ export default function Projects() {
               <a href="https://github.com/Brandon205/TrailWeather">Code</a>
             </div>
           </div>
-          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p>
         </>
       );
       break;
@@ -91,6 +91,8 @@ export default function Projects() {
         <div>
           <div className="project" onMouseEnter={() => setProject1(true)} onMouseLeave={() => setProject1(false)}>
             {project1 ? content1 : <img className="project-img" src={cubeX} alt="cubeX home page" /> }
+          </div>
+          <div className="project-description">
             <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p>
           </div>
           <div className="project" onMouseEnter={() => setProject2(true)} onMouseLeave={() => setProject2(false)}>
@@ -104,7 +106,7 @@ export default function Projects() {
             <p>A MongoDB, Express, React, Node.js (MERN) app, that was created by a team of developers. Using React for the front end made the website very quick and responsive, while on the backend Node, Express, and MongoDB handle a JWT authentication system along with that will allow for users to have their own secure accounts.</p>
           </div>
           <div className="project" onMouseEnter={() => setProject4(true)} onMouseLeave={() => setProject4(false)}>
-            {project4 ? content4 : <img className="project-img" src={trailWeather} alt="Trail Weather home page" /> }
+            {project4 ? content4 : (<img className="project-img" src={trailWeather} alt="Trail Weather home page" />) }
             <p>A full stack web app that is used to help plan your hikes more accordingly with the weather. This app uses HTML, a templating language called EJS, CSS, and Javascript to lay out the foundation along with a database and 3 APIs including Mapbox and the DarkSky API to provide information to the user about any weather or hike information they need.</p>
           </div>
         </div>
