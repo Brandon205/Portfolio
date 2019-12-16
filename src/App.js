@@ -1,5 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
-// import WhoIAm from './WhoIAm';
 import Projects from './Projects';
 import Skills from './Skills';
 import './App.css';
@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <nav className="mobile">
         <div>
-          <a href="#main">Brandon</a>
+          <a href="#main"><span className="nav-name">Brandon</span></a>
         </div>
         <div style={{'display': nav}} className="links">
           <a href="#skills">Skills</a>{' | '}
@@ -36,6 +36,11 @@ export default function App() {
         <Projects />
       <h1 id="contact">Contact</h1>
       <p>Feel free to email me at brandonblack02@gmail.com</p>
+      <div className="icons">
+        <a href="https://twitter.com/brandonblack02" className="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/brandonblack02/" className="fa fa-linkedin"></a>
+        <a href="https://github.com/Brandon205" className="fa fa-github"></a>
+      </div>
       </main>
     </div>
   );
