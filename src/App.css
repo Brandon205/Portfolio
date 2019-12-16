@@ -1,8 +1,24 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+main {
+  text-align: center;
+  background-color: #2F2F2F;
+  padding: 15px 0 15px 0;
+}
+
+header {
+  background-color: rgba(75, 75, 75, 0.541);
+}
+
 nav {
   background-color: rgba(47, 47, 47, 0.541);
   position: sticky;
-  display: flex;
-  justify-content: space-between;
+  top: 0;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 nav a {
@@ -13,29 +29,37 @@ nav a {
 }
 
 nav a:hover {
-  color: rgb(49, 49, 49)
+  color: rgb(49, 49, 49);
 }
 
-main {
-  text-align: center;
-  background-color: #2F2F2F;
+.mobile {
+  background-color: #ccc;
+  overflow: hidden;
+  position: relative;
 }
 
-header {
-  background-color: rgba(75, 75, 75, 0.541);
+.mobile .links a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.hamburger {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: calc(100vw - 25px);
+  cursor: pointer;
+}
+
+.mobile .desktop {
+  display: none;
 }
 
 .App {
   text-align: center;
-}
-
-.who-i-am {
-  text-align: center;
-  background-color: rgb(165, 165, 165);
-  border-radius: 15px;
-  box-shadow: 5px 7px 10px gray;
-  width: 85vw;
-  margin: 0 auto;
 }
 
 /*                                           PROJECTS CSS                                            */
@@ -44,12 +68,15 @@ header {
   margin: 0 auto;
   display: grid;
   min-height: 800px;
-  grid-template-rows: 200px 1fr 200px 1fr;
-  grid-template-columns: 400px 1fr 400px;
-  grid-template-areas: "img1 . img2"
-  "desc1 . desc2"
-  "img3 . img4"
-  "desc3 . desc4";
+  grid-template-rows: 36vh 1.2fr 36vh 1.2fr 36vh 1.2fr 36vh 1fr;
+  grid-template-areas: "img1"
+                        "desc1"
+                        "img2"
+                        "desc2"
+                        "img3"
+                        "desc3"
+                        "img4"
+                        "desc4";
 }
 
 .project {
@@ -90,8 +117,8 @@ header {
 }
 
 .project-img {
-  width: 400px;
-  height: 200px;
+  width: 90vw;
+  height: 34vh;
   border-radius: 15px;
 }
 
@@ -100,8 +127,8 @@ header {
 }
 
 .project-img-blur {
-  width: 400px;
-  height: 200px;
+  width: 90vw;
+  height: 34vh;
   border-radius: 15px;
   position: absolute;
   filter: blur(5px);
@@ -141,7 +168,16 @@ header {
   font-size: 1.1em;
 }
 
-/*                                           WHOIAM CSS                                            */
+/*                                           WHOIAM/SKILLS CSS                                      */
+.skills {
+  text-align: center;
+  background-color: rgb(165, 165, 165);
+  border-radius: 15px;
+  box-shadow: 5px 7px 10px gray;
+  width: 85vw;
+  margin: 25px auto 15px auto;
+}
+
 /*                                           BOUNCY CSS                                            */
 .bouncy {
   cursor: default;
@@ -155,7 +191,6 @@ header {
 .bouncy:hover {
   animation-name: rubberBand;
 }
-
 
 @keyframes rubberBand {
   from {
@@ -190,4 +225,33 @@ header {
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
+}
+
+@media screen and (min-width: 850px) {
+  .project-container {
+    grid-template-rows: 200px 1fr 200px 1fr;
+    grid-template-columns: 400px 1fr 400px;
+    grid-template-areas: "img1 . img2"
+                          "desc1 . desc2"
+                          "img3 . img4"
+                          "desc3 . desc4";
+  }
+
+  .project-img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .project-img-blur {
+    width: 400px;
+    height: 200px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile .desktop {
+    display: block
+  }
 }

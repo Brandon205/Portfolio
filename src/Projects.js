@@ -18,7 +18,7 @@ export default function Projects() {
         <img className="project-img-blur" src={cubeX} alt="cubeX home page" />
           <div className="project-details">
             <h1>cubeX</h1>
-            <hr/>
+            <hr />
             <div className="button">
               <a href="https://sheltered-reef-38980.herokuapp.com/">Live Site</a>
             </div>
@@ -36,7 +36,7 @@ export default function Projects() {
           <img className="project-img-blur" src={potterGo} alt="Potter Go home page" />
           <div className="project-details">
             <h1>PotterGo</h1>
-            <hr/>
+            <hr />
             <div className="button">
               <a href="https://github.com/Brandon205/PotterGo">Code</a>
             </div>
@@ -50,7 +50,7 @@ export default function Projects() {
           <img className="project-img-blur" src={adventureAwaits} alt="Adventure Awaits home page" />
           <div className="project-details">
           <h1>Adventure Awaits</h1>
-          <hr/>
+          <hr />
           <div className="button">
             <a href="https://boiling-depths-32027.herokuapp.com/">Live Site</a>
           </div>
@@ -67,7 +67,7 @@ export default function Projects() {
           <img className="project-img-blur" src={trailWeather} alt="Trail Weather home page" />
           <div className="project-details">
           <h1>Trail Weather</h1>
-          <hr/>
+          <hr />
           <div className="button">
             <a href="https://fast-coast-44019.herokuapp.com/">Live Site</a>
           </div>
