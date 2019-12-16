@@ -17,8 +17,6 @@ nav {
   background-color: rgba(47, 47, 47, 0.541);
   position: sticky;
   top: 0;
-  /* display: flex;
-  justify-content: space-between; */
 }
 
 nav a {
@@ -225,6 +223,18 @@ nav a:hover {
 .rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
+}
+
+@media screen and (min-width: 500px) {
+  .project-img {
+    width: 65vw;
+    height: 34vh;
+  }
+
+  .project-img-blur {
+    width: 65vw;
+    height: 34vh;
+  }
 }
 
 @media screen and (min-width: 850px) {
