@@ -26,7 +26,6 @@ export default function Projects() {
               <a href="https://github.com/Brandon205/cubeX" rel="noopener-noreferrer">Code</a>
             </div>
           </div>
-          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p>
         </>
       );
       break;
@@ -92,24 +91,45 @@ export default function Projects() {
           {project1 ? content1 : <img className="project-img" src={cubeX} alt="cubeX home page" /> }
         </div>
         <div className="project1-description">
-          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p>
+          <section className="frameworks">
+            <p>React</p>
+            <p>GraphQL</p>
+            <p>Node.js</p>
+            <p>Express</p>
+          </section>
+          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p><br/>
         </div>
         <div className="project2" onMouseEnter={() => setProject2(true)} onMouseLeave={() => setProject2(false)}>
           {project2 ? content2 : <img className="project-img" src={potterGo} alt="Potter Go home page" /> }
         </div>
         <div className="project2-description">
+          <section className="frameworks">
+            <p>React</p>
+            <p>Node.js</p>
+            <p>Express</p>
+          </section>
           <p>A 1 day hackathon project that was made by me and one other developer, along with a group of 3 UX Designers. It is a simplistic MERN app that uses MapBox to place images at certain locations that the user would have to go to. It also reaches out to an external Harry Potter api to get information, like wands, from the Harry Potter series. Our project placed 1st in the hackathon.</p>
         </div>
         <div className="project3" onMouseEnter={() => setProject3(true)} onMouseLeave={() => setProject3(false)}>
           {project3 ? content3 : <img className="project-img" src={adventureAwaits} alt="Adventure Awaits home page" /> }
         </div>
         <div className="project3-description">
+          <section className="frameworks">
+            <p>React</p>
+            <p>Node.js</p>
+            <p>Express</p>
+          </section>
           <p>A MongoDB, Express, React, Node.js (MERN) app, that was created by a team of developers. Using React for the front end made the website very quick and responsive, while on the backend Node, Express, and MongoDB handle a JWT authentication system along with that will allow for users to have their own secure accounts.</p>
         </div>
         <div className="project4" onMouseEnter={() => setProject4(true)} onMouseLeave={() => setProject4(false)}>
           {project4 ? content4 : (<img className="project-img" src={trailWeather} alt="Trail Weather home page" />) }
         </div>
         <div className="project4-description">
+          <section className="frameworks">
+            <p>EJS</p>
+            <p>Node.js</p>
+            <p>Express</p>
+          </section>
           <p>A full stack web app that is used to help plan your hikes more accordingly with the weather. This app uses HTML, a templating language called EJS, CSS, and Javascript to lay out the foundation along with a database and 3 APIs including Mapbox and the DarkSky API to provide information to the user about any weather or hike information they need.</p>
         </div>
       </main>

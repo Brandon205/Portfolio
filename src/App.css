@@ -4,13 +4,23 @@
 }
 
 main {
-  text-align: center;
   background-color: #2F2F2F;
   padding: 15px 0 15px 0;
 }
 
 header {
-  background-color: rgba(75, 75, 75, 0.541);
+  background-image: url(./img/conifer-daylight-evergreen-forest-23381.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  width: 100vw;
+  background-color: rgba(128, 128, 128, 0.596);
+  padding: 15px auto;
 }
 
 nav {
@@ -28,6 +38,13 @@ nav a {
 
 nav a:hover {
   color: rgb(49, 49, 49);
+}
+
+hr {
+  background-color: black;
+  width: 75%;
+  height: 2px;
+  margin: 0 auto;
 }
 
 .mobile {
@@ -58,6 +75,10 @@ nav a:hover {
 
 .App {
   text-align: center;
+}
+
+.name {
+  font-size: 3em;
 }
 
 /*                                           PROJECTS CSS                                            */
@@ -101,7 +122,7 @@ nav a:hover {
   grid-area: img4;
 }
 
-.project-container div {
+.project1, .project2, .project3, .project4 {
   display: flex;
   justify-content: space-around;
 }
@@ -135,12 +156,15 @@ nav a:hover {
 .project1-description {
   grid-area: desc1;
 }
+
 .project2-description {
   grid-area: desc2;
 }
+
 .project3-description {
   grid-area: desc3;
 }
+
 .project4-description {
   grid-area: desc4;
 }
@@ -154,6 +178,7 @@ nav a:hover {
   border: 2px solid black;
   border-radius: 10px;
   padding: 2px;
+  margin: 15px auto;
 }
 
 .button:hover {
@@ -166,12 +191,32 @@ nav a:hover {
   font-size: 1.1em;
 }
 
-/*                                           WHOIAM/SKILLS CSS                                      */
+.frameworks {
+  max-height: 50px;
+  margin: 10px auto 15px auto;
+  overflow-wrap: normal;
+}
+
+.frameworks p {
+  margin: 0 5px;
+  display: inline;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: tomato;
+  padding: 5px;
+}
+
+.frameworks p:hover {
+  background-color: rgb(204, 77, 55);
+  cursor: pointer;
+}
+
+/*                                           SKILLS CSS                                             */
 .skills {
   text-align: center;
   background-color: rgb(165, 165, 165);
   border-radius: 15px;
-  box-shadow: 5px 7px 10px gray;
+  box-shadow: 0 7px 10px gray;
   width: 85vw;
   margin: 25px auto 15px auto;
 }
@@ -194,27 +239,21 @@ nav a:hover {
   from {
     transform: scale3d(1, 1, 1);
   }
-
   30% {
     transform: scale3d(1.25, 0.75, 1);
   }
-
   40% {
     transform: scale3d(0.75, 1.25, 1);
   }
-
   50% {
     transform: scale3d(1.15, 0.85, 1);
   }
-
   65% {
     transform: scale3d(.95, 1.05, 1);
   }
-
   75% {
     transform: scale3d(1.05, .95, 1);
   }
-
   to {
     transform: scale3d(1, 1, 1);
   }
@@ -225,6 +264,7 @@ nav a:hover {
   animation-name: rubberBand;
 }
 
+/*                                           MEDIA QUERIES CSS                                   */
 @media screen and (min-width: 500px) {
   .project-img {
     width: 65vw;
@@ -239,7 +279,7 @@ nav a:hover {
 
 @media screen and (min-width: 850px) {
   .project-container {
-    grid-template-rows: 200px 1fr 200px 1fr;
+    grid-template-rows: 225px 1.2fr 225px 1.2fr;
     grid-template-columns: 400px 1fr 400px;
     grid-template-areas: "img1 . img2"
                           "desc1 . desc2"
