@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4921e0ee.chunk.css",
+    "main.css": "/Portfolio/static/css/main.437d96b3.chunk.css",
     "main.js": "/Portfolio/static/js/main.dbae2c9a.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.dbae2c9a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.6a869909.js",
@@ -8,9 +8,9 @@
     "static/js/2.0d0dd4cf.chunk.js": "/Portfolio/static/js/2.0d0dd4cf.chunk.js",
     "static/js/2.0d0dd4cf.chunk.js.map": "/Portfolio/static/js/2.0d0dd4cf.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.2fac8f1f841f6e1c78b9501806b9c5a5.js": "/Portfolio/precache-manifest.2fac8f1f841f6e1c78b9501806b9c5a5.js",
+    "precache-manifest.e4552bf63044353b9f852309e7fa200c.js": "/Portfolio/precache-manifest.e4552bf63044353b9f852309e7fa200c.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.4921e0ee.chunk.css.map": "/Portfolio/static/css/main.4921e0ee.chunk.css.map",
+    "static/css/main.437d96b3.chunk.css.map": "/Portfolio/static/css/main.437d96b3.chunk.css.map",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.7d01c5c6.pdf",
     "static/media/adventureAwaits.png": "/Portfolio/static/media/adventureAwaits.aa270455.png",
     "static/media/App.css": "/Portfolio/static/media/conifer-daylight-evergreen-forest-23381.8c23b369.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.6a869909.js",
     "static/js/2.0d0dd4cf.chunk.js",
-    "static/css/main.4921e0ee.chunk.css",
+    "static/css/main.437d96b3.chunk.css",
     "static/js/main.dbae2c9a.chunk.js"
   ]
 }
