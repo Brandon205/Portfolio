@@ -10,15 +10,15 @@ export default function App() {
   return (
     <div className="App">
       <nav className="mobile">
-        <div>
-          <a href="#main"><span className="nav-name">Brandon</span></a>
+        <div className="nav-name-div">
+          <a href="#main" style={{'text-align': 'left'}}><span className="nav-name">Brandon</span></a>
         </div>
         <div style={{'display': nav}} className="links">
-          <a href="#skills">Skills</a>{' | '}
-          <a href="#projects">Projects</a>{' | '}
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
-        <div className="hamburger" onClick={() => setNav(nav === 'none' ? "block" : 'none')}><i className="fa fa-bars"></i></div>
+        <div className="hamburger" onClick={() => setNav(nav === 'none' ? "inline" : 'none')}><i className="fa fa-bars"></i></div>
         <div className="desktop">
           <a href="#skills">Skills</a>{' | '}
           <a href="#projects">Projects</a>{' | '}

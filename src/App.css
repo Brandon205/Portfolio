@@ -33,7 +33,6 @@ header h4 {
 }
 
 nav {
-  background-color: rgba(47, 47, 47, 0.541);
   position: sticky;
   top: 0;
 }
@@ -56,18 +55,20 @@ hr {
 }
 
 .mobile {
-  background-color: #ccc;
-  overflow: hidden;
-  position: relative;
+  background-color: #cccccccb;
 }
 
 .mobile .links a {
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
   cursor: pointer;
+}
+
+.mobile .links a:hover {
+  background-color: #474747;
 }
 
 .hamburger {
@@ -95,7 +96,13 @@ hr {
 
 .nav-name {
   font-size: 1.2em;
-  font-weight: bold
+  font-weight: bold;
+  left: 25px;
+}
+
+.nav-name-div {
+  display: inline;
+  margin-right: 45vw;
 }
 
 .resume {
@@ -421,7 +428,7 @@ hr {
   }
 
   .mobile .desktop {
-    display: block;
+    display: inline;
   }
 
   .fab {
