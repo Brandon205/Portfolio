@@ -86,6 +86,7 @@ export default function Projects() {
   return (
     <div id="projects" className="projects">
       <h1>Projects</h1>
+      <hr/>
       <main className="project-container">
         <div className="project1" onMouseEnter={() => setProject1(true)} onMouseLeave={() => setProject1(false)}>
           {project1 ? content1 : <img className="project-img" src={cubeX} alt="cubeX home page" /> }
