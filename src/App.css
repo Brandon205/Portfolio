@@ -86,10 +86,20 @@ hr {
   font-weight: bold
 }
 
+.resume {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+.resume:hover {
+  color: blue;
+}
+
 /*                                           PROJECTS CSS                                            */
 .project-container {
   width: 90vw;
-  background-color: rgba(128, 128, 128, 0.171);
+  background-color: transparent;
   margin: 0 auto;
   display: grid;
   min-height: 800px;
@@ -103,6 +113,14 @@ hr {
                         "img4"
                         "desc4";
 }
+
+/* .projects {
+  background-color: rgb(165, 165, 165);
+  border-radius: 15px;
+  box-shadow: 0 7px 10px gray;
+  width: 95vw;
+  margin: 25px auto 15px auto;
+} */
 
 .project {
   width: 400px;
@@ -118,12 +136,15 @@ hr {
 .project1 {
   grid-area: img1;
 }
+
 .project2 {
   grid-area: img2;
 }
+
 .project3 {
   grid-area: img3;
 }
+
 .project4 {
   grid-area: img4;
 }
@@ -219,12 +240,36 @@ hr {
 
 /*                                           SKILLS CSS                                             */
 .skills {
-  text-align: center;
   background-color: rgb(165, 165, 165);
   border-radius: 15px;
   box-shadow: 0 7px 10px gray;
   width: 85vw;
   margin: 25px auto 15px auto;
+}
+
+.skill-img-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-icon {
+  padding: 10px;
+  margin: 15px;
+}
+
+.skill-atag {
+  color: black;
+}
+
+.skill-atag:hover {
+  opacity: .8;
+}
+
+.fab {
+  font-size: 4em;
+  padding: 10px;
+  margin: 15px;
 }
 
 /*                                           BOUNCY CSS                                            */
@@ -273,8 +318,7 @@ hr {
 /*                                           SOCIAL MEDIA CSS                                   */
 .fa {
   padding: 7px;
-  font-size: 15px;
-  width: 25px;
+  font-size: 1.5em;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -286,6 +330,10 @@ hr {
 }
 
 .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-js-square {
   background: #55ACEE;
   color: white;
 }
@@ -313,7 +361,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
   .project-container {
     grid-template-rows: 225px 1.2fr 225px 1.2fr;
     grid-template-columns: 400px 1fr 400px;
