@@ -339,7 +339,6 @@ hr {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  margin-right: 10px;
 }
 
 .fa:hover {
@@ -349,15 +348,13 @@ hr {
 .fa-twitter {
   background: #55ACEE;
   color: white;
-}
-.fa-js-square {
-  background: #55ACEE;
-  color: white;
+  margin-right: 10px;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  margin-right: 10px;
 }
 
 .fa-github {
