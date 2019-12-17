@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4921e0ee.chunk.css",
+    "main.js": "/Portfolio/static/js/main.dbae2c9a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.dbae2c9a.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.6a869909.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6a869909.js.map",
+    "static/js/2.0d0dd4cf.chunk.js": "/Portfolio/static/js/2.0d0dd4cf.chunk.js",
+    "static/js/2.0d0dd4cf.chunk.js.map": "/Portfolio/static/js/2.0d0dd4cf.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.2fac8f1f841f6e1c78b9501806b9c5a5.js": "/Portfolio/precache-manifest.2fac8f1f841f6e1c78b9501806b9c5a5.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.4921e0ee.chunk.css.map": "/Portfolio/static/css/main.4921e0ee.chunk.css.map",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.7d01c5c6.pdf",
+    "static/media/adventureAwaits.png": "/Portfolio/static/media/adventureAwaits.aa270455.png",
+    "static/media/App.css": "/Portfolio/static/media/conifer-daylight-evergreen-forest-23381.8c23b369.jpg",
+    "static/media/cubeX.png": "/Portfolio/static/media/cubeX.39a14eed.png",
+    "static/media/graphql-icon.svg": "/Portfolio/static/media/graphql-icon.32bc428f.svg",
+    "static/media/mongodb-icon.svg": "/Portfolio/static/media/mongodb-icon.554c7d4b.svg",
+    "static/media/nodejs-icon.svg": "/Portfolio/static/media/nodejs-icon.5c376133.svg",
+    "static/media/potterGo.png": "/Portfolio/static/media/potterGo.9b7b0c27.png",
+    "static/media/trailWeather.png": "/Portfolio/static/media/trailWeather.0ec6c09f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a869909.js",
+    "static/js/2.0d0dd4cf.chunk.js",
+    "static/css/main.4921e0ee.chunk.css",
+    "static/js/main.dbae2c9a.chunk.js"
+  ]
+}
