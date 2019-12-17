@@ -34,13 +34,16 @@ export default function App() {
       <main>
         <Skills />
         <Projects />
-      <h1 id="contact">Contact</h1>
-      <p>Feel free to email me at brandonblack02@gmail.com</p>
-      <div className="icons">
-        <a href="https://twitter.com/brandonblack02" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://www.linkedin.com/in/brandonblack02/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
-        <a href="https://github.com/Brandon205" className="fa fa-github" target="_blank" rel="noopener noreferrer"></a>
-      </div>
+        <div className="contact">
+          <h1 id="contact">Contact</h1>
+          <hr />
+          <p>Feel free to email me at brandonblack02@gmail.com</p>
+          <div className="icons">
+            <a href="https://twitter.com/brandonblack02" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://www.linkedin.com/in/brandonblack02/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://github.com/Brandon205" className="fa fa-github" target="_blank" rel="noopener noreferrer"></a>
+          </div>
+        </div>
       </main>
     </div>
   );

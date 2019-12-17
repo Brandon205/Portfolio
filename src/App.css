@@ -67,13 +67,15 @@ hr {
   text-decoration: none;
   font-size: 17px;
   display: block;
+  cursor: pointer;
 }
 
 .hamburger {
+  color: black;
   display: block;
   position: absolute;
-  top: 8px;
-  left: calc(100vw - 25px);
+  top: 0;
+  left: calc(100vw - 35px);
   cursor: pointer;
 }
 
@@ -86,7 +88,7 @@ hr {
 }
 
 .name {
-  font-size: 3em;
+  font-size: 2em;
   color: black;
   padding: 5px;
 }
@@ -236,7 +238,6 @@ hr {
   margin: 0 5px;
   display: inline;
   border: 1px solid black;
-  /* border-radius: 5px; */
   background-color: #C62D29;
   box-shadow: 1px 2px 1px black;
   padding: 5px;
@@ -250,22 +251,21 @@ hr {
 
 /*                                           SKILLS CSS                                             */
 .skills {
-  /* background-color: rgb(165, 165, 165); */
-  border-radius: 15px;
-  /* box-shadow: 0 7px 10px gray; */
   width: 85vw;
   margin: 25px auto 15px auto;
-}
-
-.skill-img-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  overflow: auto;
 }
 
 .skill-icon {
   padding: 10px;
   margin: 15px;
+}
+
+.skill-icon-img {
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px 0 10px;
+  margin: 15px 15px 0 15px;
 }
 
 .skill-atag {
@@ -277,7 +277,7 @@ hr {
 }
 
 .fab {
-  font-size: 4em;
+  font-size: 3em;
   padding: 10px;
   margin: 15px;
 }
@@ -325,7 +325,7 @@ hr {
   animation-name: rubberBand;
 }
 
-/*                                           SOCIAL MEDIA CSS                                   */
+/*                                           CONTACT CSS                                         */
 .fa {
   padding: 7px;
   font-size: 1.5em;
@@ -358,8 +358,27 @@ hr {
   color: white;
 }
 
+.contact {
+  margin: 0 auto 10px auto;
+  width: 75vw;
+}
+
+.contact h1 {
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 15px;
+}
+
 /*                                           MEDIA QUERIES CSS                                   */
 @media screen and (min-width: 500px) {
+  .name {
+    font-size: 2em;
+    color: black;
+    padding: 5px;
+  }
+
   .project-img {
     width: 65vw;
     height: 34vh;
@@ -391,11 +410,53 @@ hr {
     height: 200px;
   }
 
+  .name {
+    font-size: 3em;
+    color: black;
+    padding: 5px;
+  }
+
   .hamburger {
     display: none;
   }
 
   .mobile .desktop {
-    display: block
+    display: block;
+  }
+
+  .fab {
+    font-size: 4em;
+  }
+
+  .skill-icon-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    .project-container {
+      grid-template-rows: 325px 1.2fr 325px 1.2fr;
+      grid-template-columns: 600px 1fr 600px;
+      grid-template-areas: "img1 . img2"
+                            "desc1 . desc2"
+                            "img3 . img4"
+                            "desc3 . desc4";
+    }
+  
+    .project-img {
+      width: 600px;
+      height: 300px;
+    }
+  
+    .project-img-blur {
+      width: 600px;
+      height: 300px;
+    }
+
+    .name {
+      font-size: 4em;
+      color: black;
+      padding: 5px;
+    }
   }
 }
