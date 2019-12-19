@@ -9,7 +9,7 @@ main {
 }
 
 header {
-  background-image: url(./img/conifer-daylight-evergreen-forest-23381.jpg);
+  background-image: url(./img/conifer-daylight-medium.jpg);
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -117,12 +117,12 @@ hr {
 
 /*                                           PROJECTS CSS                                            */
 .project-container {
-  width: 90vw;
+  width: 100vw;
   background-color: transparent;
   margin: 0 auto;
   display: grid;
   min-height: 800px;
-  grid-template-rows: 36vh 1.2fr 36vh 1.2fr 36vh 1.2fr 36vh 1fr;
+  grid-template-rows: 220px 1.2fr 220px 1.2fr 220px 1.2fr 220px 1fr;
   grid-template-areas: "img1"
                         "desc1"
                         "img2"
@@ -180,8 +180,8 @@ hr {
 }
 
 .project-img {
-  width: 90vw;
-  height: 34vh;
+  width: 280px;
+  height: 210px;
   border-radius: 15px;
 }
 
@@ -190,8 +190,8 @@ hr {
 }
 
 .project-img-blur {
-  width: 90vw;
-  height: 34vh;
+  width: 280px;
+  height: 210px;
   border-radius: 15px;
   position: absolute;
   filter: blur(5px);
@@ -377,6 +377,18 @@ hr {
 
 /*                                           MEDIA QUERIES CSS                                   */
 @media screen and (min-width: 500px) {
+  .project-container {
+    grid-template-rows: 280px 1.2fr 280px 1.2fr 280px 1.2fr 280px 1fr;
+    grid-template-areas: "img1"
+                          "desc1"
+                          "img2"
+                          "desc2"
+                          "img3"
+                          "desc3"
+                          "img4"
+                          "desc4";
+  }
+
   .name {
     font-size: 2em;
     color: black;
@@ -384,13 +396,13 @@ hr {
   }
 
   .project-img {
-    width: 65vw;
-    height: 34vh;
+    width: 470px;
+    height: 275px;
   }
 
   .project-img-blur {
-    width: 65vw;
-    height: 34vh;
+    width: 470px;
+    height: 275px;
   }
 }
 
