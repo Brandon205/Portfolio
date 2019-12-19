@@ -115,6 +115,10 @@ hr {
   color: blue;
 }
 
+.sub-heading {
+  font-size: 2.5em;
+}
+
 /*                                           PROJECTS CSS                                            */
 .project-container {
   width: 100vw;
@@ -250,12 +254,6 @@ hr {
   padding: 5px;
 }
 
-.frameworks p:hover {
-  background-color: rgb(161, 37, 33);
-  cursor: pointer;
-  box-shadow: 1px 1px 1px black;
-}
-
 /*                                           SKILLS CSS                                             */
 .skills {
   width: 85vw;
@@ -349,17 +347,20 @@ hr {
   background: #55ACEE;
   color: white;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
-.fa-github {
+.fa-github-square {
   background: black;
   color: white;
+  border-radius: 15px;
 }
 
 .contact {
@@ -408,6 +409,7 @@ hr {
 
 @media screen and (min-width: 900px) {
   .project-container {
+    width: 90vw;
     grid-template-rows: 225px 1.2fr 225px 1.2fr;
     grid-template-columns: 400px 1fr 400px;
     grid-template-areas: "img1 . img2"
@@ -444,6 +446,10 @@ hr {
     font-size: 4em;
   }
 
+  .fa-twitter, .fa-linkedin, .fa-github-square {
+    font-size: 1.5em;
+  }
+
   .skill-icon-img {
     width: 56px;
     height: 56px;
@@ -451,6 +457,7 @@ hr {
 
   @media screen and (min-width: 1400px) {
     .project-container {
+      width: 85vw;
       grid-template-rows: 325px 1.2fr 325px 1.2fr;
       grid-template-columns: 600px 1fr 600px;
       grid-template-areas: "img1 . img2"

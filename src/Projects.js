@@ -85,7 +85,7 @@ export default function Projects() {
   }
   return (
     <div id="projects" className="projects">
-      <h1>Projects</h1>
+      <h1 className="sub-heading">Projects</h1>
       <hr/>
       <main className="project-container">
         <div className="project1" onMouseEnter={() => setProject1(true)} onMouseLeave={() => setProject1(false)}>

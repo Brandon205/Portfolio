@@ -20,8 +20,8 @@ export default function App() {
         </div>
         <div className="hamburger" onClick={() => setNav(nav === 'none' ? "inline" : 'none')}><i className="fa fa-bars"></i></div>
         <div className="desktop">
-          <a href="#skills">Skills</a>{' | '}
-          <a href="#projects">Projects</a>{' | '}
+          <a href="#skills">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -39,9 +39,9 @@ export default function App() {
           <hr />
           <p>Feel free to email me at brandonblack02@gmail.com</p>
           <div className="icons">
-            <a href="https://twitter.com/brandonblack02" className="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://www.linkedin.com/in/brandonblack02/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a>
-            <a href="https://github.com/Brandon205" className="fa fa-github" target="_blank" rel="noopener noreferrer"></a>
+            <a href="https://twitter.com/brandonblack02" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/brandonblack02/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Brandon205" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square social-icons"></i></a>
           </div>
         </div>
       </main>

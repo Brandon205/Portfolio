@@ -7,7 +7,7 @@ import resume from './img/Resume.pdf';
 export default function Skills() {
   return (
     <div className="skills" id="skills">
-      <h1>Skills</h1>
+      <h1 className="sub-heading">Skills</h1>
       <hr />
       <div>
         <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><i className="fab fa-js"></i></a>
