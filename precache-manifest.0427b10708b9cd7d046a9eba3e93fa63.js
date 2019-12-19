@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14e0010b772d4213b33bcf98eaa477a2",
+    "revision": "8ebf40f683e5cd520831c4fed258689c",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "529e7cb0a210c27d17de",
-    "url": "/Portfolio/static/css/main.437d96b3.chunk.css"
+    "revision": "8286fa967a7026f24854",
+    "url": "/Portfolio/static/css/main.a9d6e00b.chunk.css"
   },
   {
     "revision": "88d7b21a1184ec1d5243",
     "url": "/Portfolio/static/js/2.0d0dd4cf.chunk.js"
   },
   {
-    "revision": "529e7cb0a210c27d17de",
-    "url": "/Portfolio/static/js/main.dbae2c9a.chunk.js"
+    "revision": "8286fa967a7026f24854",
+    "url": "/Portfolio/static/js/main.bd915565.chunk.js"
   },
   {
     "revision": "dd65a4e71a8b70668f2c",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/adventureAwaits.aa270455.png"
   },
   {
-    "revision": "8c23b369df26f822fe5c3391e908e13d",
-    "url": "/Portfolio/static/media/conifer-daylight-evergreen-forest-23381.8c23b369.jpg"
+    "revision": "7ca99d42a90c615beeb12b8d0695cbe4",
+    "url": "/Portfolio/static/media/conifer-daylight-medium.7ca99d42.jpg"
   },
   {
     "revision": "39a14eeda378266cca5494b3756f72fd",
