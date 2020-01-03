@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.78bb3f0d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dc179c27.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dc179c27.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.6a869909.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.6a869909.js.map",
-    "static/js/2.0d0dd4cf.chunk.js": "/Portfolio/static/js/2.0d0dd4cf.chunk.js",
-    "static/js/2.0d0dd4cf.chunk.js.map": "/Portfolio/static/js/2.0d0dd4cf.chunk.js.map",
-    "index.html": "/Portfolio/index.html",
-    "precache-manifest.d0870118e6dac361b9936c61058bd411.js": "/Portfolio/precache-manifest.d0870118e6dac361b9936c61058bd411.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.78bb3f0d.chunk.css.map": "/Portfolio/static/css/main.78bb3f0d.chunk.css.map",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.7d01c5c6.pdf",
-    "static/media/adventureAwaits.png": "/Portfolio/static/media/adventureAwaits.aa270455.png",
-    "static/media/App.css": "/Portfolio/static/media/conifer-daylight-medium.7ca99d42.jpg",
-    "static/media/cubeX.png": "/Portfolio/static/media/cubeX.39a14eed.png",
-    "static/media/graphql-icon.svg": "/Portfolio/static/media/graphql-icon.32bc428f.svg",
-    "static/media/mongodb-icon.svg": "/Portfolio/static/media/mongodb-icon.554c7d4b.svg",
-    "static/media/nodejs-icon.svg": "/Portfolio/static/media/nodejs-icon.5c376133.svg",
-    "static/media/potterGo.png": "/Portfolio/static/media/potterGo.9b7b0c27.png",
-    "static/media/trailWeather.png": "/Portfolio/static/media/trailWeather.0ec6c09f.png"
+    "main.css": "/static/css/main.8401bc20.chunk.css",
+    "main.js": "/static/js/main.7ae85e60.chunk.js",
+    "main.js.map": "/static/js/main.7ae85e60.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8896086d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8896086d.js.map",
+    "static/js/2.0d0dd4cf.chunk.js": "/static/js/2.0d0dd4cf.chunk.js",
+    "static/js/2.0d0dd4cf.chunk.js.map": "/static/js/2.0d0dd4cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.febf9184f64a40e9e8d740a330497a1a.js": "/precache-manifest.febf9184f64a40e9e8d740a330497a1a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8401bc20.chunk.css.map": "/static/css/main.8401bc20.chunk.css.map",
+    "static/media/Resume.pdf": "/static/media/Resume.7d01c5c6.pdf",
+    "static/media/adventureAwaits.png": "/static/media/adventureAwaits.aa270455.png",
+    "static/media/App.css": "/static/media/conifer-daylight-medium.7ca99d42.jpg",
+    "static/media/cubeX.png": "/static/media/cubeX.39a14eed.png",
+    "static/media/graphql-icon.svg": "/static/media/graphql-icon.32bc428f.svg",
+    "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.554c7d4b.svg",
+    "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.5c376133.svg",
+    "static/media/potterGo.png": "/static/media/potterGo.9b7b0c27.png",
+    "static/media/trailWeather.png": "/static/media/trailWeather.0ec6c09f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a869909.js",
+    "static/js/runtime-main.8896086d.js",
     "static/js/2.0d0dd4cf.chunk.js",
-    "static/css/main.78bb3f0d.chunk.css",
-    "static/js/main.dc179c27.chunk.js"
+    "static/css/main.8401bc20.chunk.css",
+    "static/js/main.7ae85e60.chunk.js"
   ]
 }
