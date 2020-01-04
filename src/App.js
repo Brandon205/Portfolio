@@ -2,7 +2,11 @@
 import React, { useState } from 'react';
 import Projects from './Projects';
 import Skills from './Skills';
+import ReactGA from 'react-ga';
 import './App.css';
+
+const trackingId = "UA-118954435-2";
+ReactGA.initialize(trackingId);
 
 export default function App() {
   const [nav, setNav] = useState('none')
