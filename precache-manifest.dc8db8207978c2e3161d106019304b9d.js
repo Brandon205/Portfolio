@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da5327a69ef195e91e08852764987b54",
+    "revision": "983dd2a3a84a5236e3607e0a0d13cba4",
     "url": "/index.html"
   },
   {
-    "revision": "9caf6f0fa4520abac253",
-    "url": "/static/css/main.8401bc20.chunk.css"
+    "revision": "3ce5b0c985710a6ebc1c",
+    "url": "/static/css/main.f8f79913.chunk.css"
   },
   {
     "revision": "bebbc6f4ee284e205513",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.61192131.chunk.js.LICENSE"
   },
   {
-    "revision": "9caf6f0fa4520abac253",
-    "url": "/static/js/main.f1a3c3a8.chunk.js"
+    "revision": "3ce5b0c985710a6ebc1c",
+    "url": "/static/js/main.646ded83.chunk.js"
   },
   {
     "revision": "bc0a437ac56b6d303c33",
@@ -32,10 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adventureAwaits.aa270455.png"
   },
   {
-    "revision": "7ca99d42a90c615beeb12b8d0695cbe4",
-    "url": "/static/media/conifer-daylight-medium.7ca99d42.jpg"
-  },
-  {
     "revision": "39a14eeda378266cca5494b3756f72fd",
     "url": "/static/media/cubeX.39a14eed.png"
   },
@@ -46,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "554c7d4bfd63a3da33773978fd291c06",
     "url": "/static/media/mongodb-icon.554c7d4b.svg"
+  },
+  {
+    "revision": "e40a293b8c068830eb50f0bd14e4f104",
+    "url": "/static/media/mountains.e40a293b.jpg"
   },
   {
     "revision": "5c376133d6403088a87a04fcc9685674",
