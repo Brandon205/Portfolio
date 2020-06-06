@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <nav className="mobile" id="main">
+      <nav className="mobile">
         <div className="nav-name-div">
           <a href="#main"><span className="nav-name">Brandon</span></a>
         </div>
@@ -29,7 +29,7 @@ export default function App() {
           <a href="#contact">Contact</a>
         </div>
       </nav>
-      <header>
+      <header  id="main">
         <div>
           <h1 className="name"> <span className="bouncy">&lt;</span><span className="bouncy">B</span><span className="bouncy">r</span><span className="bouncy">a</span><span className="bouncy">n</span><span className="bouncy">d</span><span className="bouncy">o</span><span className="bouncy">n</span> <span className="bouncy">B</span><span className="bouncy">l</span><span className="bouncy">a</span><span className="bouncy">c</span><span className="bouncy">k</span><span className="bouncy">/</span><span className="bouncy">&gt;</span> </h1>
         </div>

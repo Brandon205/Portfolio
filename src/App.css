@@ -9,7 +9,8 @@ main {
 }
 
 header {
-  background-image: url(./img/conifer-daylight-medium.jpg);
+  /* background-image: url(./img/conifer-daylight-medium.jpg); */
+  background-image: url(./img/mountains.jpg);
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -292,7 +293,7 @@ hr {
   cursor: default;
   display: inline-block;
   border-radius: 5px;  
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-iteration-count: 1;
 }
@@ -305,13 +306,13 @@ hr {
   from {
     transform: scale3d(1, 1, 1);
   }
-  30% {
+  7% {
     transform: scale3d(1.25, 0.75, 1);
   }
-  40% {
+  25% {
     transform: scale3d(0.75, 1.25, 1);
   }
-  50% {
+  45% {
     transform: scale3d(1.15, 0.85, 1);
   }
   65% {
