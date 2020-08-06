@@ -30,6 +30,16 @@ header h4 {
   background-color: rgba(47, 47, 47, 0.931);
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 45vw;
+  padding: 10px;
+  background-color: rgba(47, 47, 47, 0.931);
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 5px;
+}
+
 nav a {
   font-size: 1.5em;
   text-decoration: none;
@@ -44,16 +54,6 @@ hr {
   width: 75%;
   border: 2px dashed gray;
   margin: 0 auto 10px auto;
-}
-
-.desktop {
-  display: flex;
-  justify-content: space-around;
-  width: 45vw;
-  padding: 10px;
-  background-color: rgba(47, 47, 47, 0.931);
-  border-radius: 0 0 15px 15px;
-  margin-bottom: 5px;
 }
 
 .App {
