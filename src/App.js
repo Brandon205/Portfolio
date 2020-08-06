@@ -17,6 +17,19 @@ export default function App() {
   const scrollTop = () => {
     window.scrollTo({top: 0, behavior: "smooth"})
   }
+  
+  const bounce = (e) => {
+    let letter = e.target
+    if (letter.classList.contains("rubberBand")) {
+      letter.classList.remove("rubberBand")
+      letter.classList.add("rubberBand")
+    } else {
+      letter.classList.add("rubberBand")
+    }
+    setTimeout(() => {
+      letter.classList.remove("rubberBand")
+    }, 1500)
+  }
 
   window.addEventListener('scroll', checkScroll)
 
@@ -24,7 +37,7 @@ export default function App() {
     <div className="App">
       <header id="main">
         <div>
-          <h1 className="name"> <span className="bouncy">&lt;</span><span className="bouncy">B</span><span className="bouncy">r</span><span className="bouncy">a</span><span className="bouncy">n</span><span className="bouncy">d</span><span className="bouncy">o</span><span className="bouncy">n</span> <span className="bouncy">B</span><span className="bouncy">l</span><span className="bouncy">a</span><span className="bouncy">c</span><span className="bouncy">k</span><span className="bouncy">/</span><span className="bouncy">&gt;</span> </h1>
+          <h1 className="name"> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>r</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>d</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>o</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>l</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>c</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>k</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>/</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>&gt;</span> </h1>
         </div>
         <h4>A Seattle-based Full Stack Web Developer</h4>
         <nav>
