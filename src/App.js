@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Projects from './Projects';
 import Skills from './Skills';
-import ReactGA from 'react-ga';
 import './App.css';
 
-const trackingId = "UA-118954435-2";
-ReactGA.initialize(trackingId);
-
 export default function App() {
+  const [top, setTop] = useState(false)
+
+  const checkScroll = () => {
+    if (!top && window.pageYOffset > 850) {
+      setTop(true)
+    } else if (top && window.pageYOffset <= 850) {
+      setTop(false)
+    }
+  }
+
+  const scrollTop = () => {
+    window.scrollTo({top: 0, behavior: "smooth"})
+  }
+
+  window.addEventListener('scroll', checkScroll)
+
   return (
     <div className="App">
       <header id="main">
@@ -21,6 +33,7 @@ export default function App() {
           <a href="#contact">Contact</a>
         </nav>
       </header>
+      <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top">&nbsp;&uarr;&nbsp;</button>
       <main>
         <Skills />
         <Projects />

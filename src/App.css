@@ -3,6 +3,27 @@
   scroll-behavior: smooth;
 }
 
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+#back-to-top:hover {
+  background-color: #777;
+}
+
 main {
   background-color: #2F2F2F;
   padding: 15px 0 15px 0;
@@ -51,7 +72,7 @@ nav a:hover {
 }
 
 hr {
-  width: 75%;
+  width: 90%;
   border: 2px dashed gray;
   margin: 0 auto 10px auto;
 }
@@ -135,7 +156,7 @@ hr {
   justify-content: flex-start;
   align-items: center;
   color: black;
-  margin-top: 7px;
+  margin-top: 20px;
 }
 
 .project-img {
