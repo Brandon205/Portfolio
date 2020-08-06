@@ -20,10 +20,10 @@ export default function Projects() {
             <h1>cubeX</h1>
             <hr />
             <div className="button">
-              <a href="https://sheltered-reef-38980.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+              <a href="https://sheltered-reef-38980.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
             </div>
             <div className="button">
-              <a href="https://github.com/Brandon205/cubeX" target="_blank" rel="noopener noreferrer">Code</a>
+              <a href="https://github.com/Brandon205/cubeX" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </>
@@ -37,7 +37,7 @@ export default function Projects() {
             <h1>PotterGo</h1>
             <hr />
             <div className="button">
-              <a href="https://github.com/Brandon205/PotterGo" target="_blank" rel="noopener noreferrer">Code</a>
+              <a href="https://github.com/Brandon205/PotterGo" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </>
@@ -51,10 +51,10 @@ export default function Projects() {
           <h1>Adventure Awaits</h1>
           <hr />
           <div className="button">
-            <a href="https://boiling-depths-32027.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+            <a href="https://boiling-depths-32027.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
             <div className="button">
-              <a href="https://github.com/Brandon205/adventure-awaits" target="_blank" rel="noopener noreferrer">Code</a>
+              <a href="https://github.com/Brandon205/adventure-awaits" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </>
@@ -68,10 +68,10 @@ export default function Projects() {
           <h1>Trail Weather</h1>
           <hr />
           <div className="button">
-            <a href="https://fast-coast-44019.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Site</a>
+            <a href="https://fast-coast-44019.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
             <div className="button">
-              <a href="https://github.com/Brandon205/TrailWeather" target="_blank" rel="noopener noreferrer">Code</a>
+              <a href="https://github.com/Brandon205/TrailWeather" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </>
