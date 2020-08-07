@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://brandonblack.net",
   "dependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
