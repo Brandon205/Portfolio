@@ -45,6 +45,10 @@ main {
   padding: 15px 0 15px 0;
 }
 
+.name {
+  color: black;
+}
+
 header {
   background-image: url(./img/mountains.jpg);
   height: 100vh;
@@ -69,9 +73,11 @@ header h4 {
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  width: 45vw;
-  padding: 10px;
+  align-items: center;
+  width: 30vw;
+  padding: 5px;
   background-color: rgba(47, 47, 47, 0.931);
   border-radius: 0 0 15px 15px;
   margin-bottom: 5px;
@@ -81,6 +87,7 @@ nav a {
   font-size: 1.5em;
   text-decoration: none;
   color: #CACACA;
+  margin-bottom: 5px;
 }
 
 nav a:hover {
@@ -367,7 +374,7 @@ hr {
 }
 
 /*                                           MEDIA QUERIES CSS                                   */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .project-container {
     grid-template-rows: 280px 1.2fr 280px 1.2fr 280px 1.2fr 280px 1fr;
     grid-template-areas: "img1"
@@ -384,10 +391,20 @@ hr {
     margin-top: 20px;
   }
 
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    width: 45vw;
+  }
+
+  nav a {
+    margin-bottom: 0;
+  }
+
   .name {
     font-size: 2em;
-    color: black;
-    padding: 5px;
   }
 
   .project-img {
