@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ceed3f43d3d18f1cf5f72b314830c539",
+    "revision": "a8f361a72bd2c44bc2ee0ebe11b1a1a4",
     "url": "/index.html"
   },
   {
-    "revision": "1651fb34337cc372cb87",
-    "url": "/static/css/main.257fcd90.chunk.css"
+    "revision": "4881a488bdfd4e11bd73",
+    "url": "/static/css/main.783a4312.chunk.css"
   },
   {
-    "revision": "81983c9c5ca2495bf29b",
-    "url": "/static/js/2.ef2a04ca.chunk.js"
+    "revision": "30d6f475ea3ac5ee3695",
+    "url": "/static/js/2.9516a4b8.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.ef2a04ca.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9516a4b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1651fb34337cc372cb87",
-    "url": "/static/js/main.522a5473.chunk.js"
+    "revision": "4881a488bdfd4e11bd73",
+    "url": "/static/js/main.44fc68a7.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e63d53f8b3758df605a40de2fec3742",
     "url": "/static/media/adventureAwaits.5e63d53f.webp"
+  },
+  {
+    "revision": "aa270455babe2906af307117262fc8d0",
+    "url": "/static/media/adventureAwaits.aa270455.png"
+  },
+  {
+    "revision": "39a14eeda378266cca5494b3756f72fd",
+    "url": "/static/media/cubeX.39a14eed.png"
   },
   {
     "revision": "d98092f3c7838de05c55375f5653cd63",
@@ -54,6 +62,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a1e8aeb549b71997e60b7fc6a213365",
     "url": "/static/media/potterGo.3a1e8aeb.webp"
+  },
+  {
+    "revision": "9b7b0c27d276145b1e8e1e82bda32946",
+    "url": "/static/media/potterGo.9b7b0c27.png"
+  },
+  {
+    "revision": "0ec6c09fc8c150bda97d689230239d29",
+    "url": "/static/media/trailWeather.0ec6c09f.png"
   },
   {
     "revision": "9553a42f8b567d09804737e81805ba03",

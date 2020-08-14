@@ -1,31 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.257fcd90.chunk.css",
-    "main.js": "/static/js/main.522a5473.chunk.js",
-    "main.js.map": "/static/js/main.522a5473.chunk.js.map",
+    "main.css": "/static/css/main.783a4312.chunk.css",
+    "main.js": "/static/js/main.44fc68a7.chunk.js",
+    "main.js.map": "/static/js/main.44fc68a7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.ef2a04ca.chunk.js": "/static/js/2.ef2a04ca.chunk.js",
-    "static/js/2.ef2a04ca.chunk.js.map": "/static/js/2.ef2a04ca.chunk.js.map",
+    "static/js/2.9516a4b8.chunk.js": "/static/js/2.9516a4b8.chunk.js",
+    "static/js/2.9516a4b8.chunk.js.map": "/static/js/2.9516a4b8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0e7035f063e11e5ba897de831fecbe47.js": "/precache-manifest.0e7035f063e11e5ba897de831fecbe47.js",
+    "precache-manifest.dbc69193c064b7a5a5da8332ff39c519.js": "/precache-manifest.dbc69193c064b7a5a5da8332ff39c519.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.257fcd90.chunk.css.map": "/static/css/main.257fcd90.chunk.css.map",
-    "static/js/2.ef2a04ca.chunk.js.LICENSE.txt": "/static/js/2.ef2a04ca.chunk.js.LICENSE.txt",
+    "static/css/main.783a4312.chunk.css.map": "/static/css/main.783a4312.chunk.css.map",
+    "static/js/2.9516a4b8.chunk.js.LICENSE.txt": "/static/js/2.9516a4b8.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/static/media/Resume.81c425ce.pdf",
     "static/media/adventureAwaits.webp": "/static/media/adventureAwaits.5e63d53f.webp",
+    "static/media/adventureAwaits.png": "/static/media/adventureAwaits.aa270455.png",
+    "static/media/cubeX.png": "/static/media/cubeX.39a14eed.png",
     "static/media/cubeX.webp": "/static/media/cubeX.d98092f3.webp",
     "static/media/graphql-icon.svg": "/static/media/graphql-icon.3f4ec249.svg",
     "static/media/mongodb-icon.svg": "/static/media/mongodb-icon.aed124e1.svg",
     "static/media/App.css": "/static/media/mountains.4d7b1cee.webp",
     "static/media/nodejs-icon.svg": "/static/media/nodejs-icon.23235306.svg",
     "static/media/potterGo.webp": "/static/media/potterGo.3a1e8aeb.webp",
+    "static/media/potterGo.png": "/static/media/potterGo.9b7b0c27.png",
+    "static/media/trailWeather.png": "/static/media/trailWeather.0ec6c09f.png",
     "static/media/trailWeather.webp": "/static/media/trailWeather.9553a42f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.ef2a04ca.chunk.js",
-    "static/css/main.257fcd90.chunk.css",
-    "static/js/main.522a5473.chunk.js"
+    "static/js/2.9516a4b8.chunk.js",
+    "static/css/main.783a4312.chunk.css",
+    "static/js/main.44fc68a7.chunk.js"
   ]
 }
