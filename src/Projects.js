@@ -3,6 +3,10 @@ import cubeX from './img/cubeX.webp';
 import trailWeather from './img/trailWeather.webp';
 import potterGo from './img/potterGo.webp';
 import adventureAwaits from './img/adventureAwaits.webp';
+import cubeXOld from './img/cubeX.png';
+import trailWeatherOld from './img/trailWeather.png';
+import potterGoOld from './img/potterGo.png';
+import adventureAwaitsOld from './img/adventureAwaits.png';
 
 export default function Projects() {
   const [project1, setProject1] = useState(false);
@@ -15,7 +19,11 @@ export default function Projects() {
     case (project1):
       content1 = (
         <>
-        <img className="project-img-blur" src={cubeX} alt="cubeX home page" />
+          <picture className="project-img-blur">
+            <source srcSet={cubeX} type="image/webp" />
+            <source srcSet={cubeXOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={cubeXOld} alt="cubeX home page" />
+          </picture>
           <div className="project-details">
             <h1>cubeX</h1>
             <hr />
@@ -32,7 +40,11 @@ export default function Projects() {
     case (project2):
       content2 = (
         <>
-          <img className="project-img-blur" src={potterGo} alt="Potter Go home page" />
+          <picture>
+            <source srcSet={potterGo} type="image/webp" />
+            <source srcSet={potterGoOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={potterGoOld} alt="Potter Go home page" />
+          </picture>
           <div className="project-details">
             <h1>PotterGo</h1>
             <hr />
@@ -46,7 +58,11 @@ export default function Projects() {
     case (project3):
       content3 = (
         <>
-          <img className="project-img-blur" src={adventureAwaits} alt="Adventure Awaits home page" />
+          <picture>
+            <source srcSet={adventureAwaits} type="image/webp" />
+            <source srcSet={adventureAwaitsOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={adventureAwaitsOld} alt="Adventure Awaits home page" />
+          </picture>
           <div className="project-details">
           <h1>Adventure Awaits</h1>
           <hr />
@@ -63,7 +79,11 @@ export default function Projects() {
     case (project4):
       content4 = (
         <>
-          <img className="project-img-blur" src={trailWeather} alt="Trail Weather home page" />
+          <picture>
+            <source srcSet={trailWeather} type="image/webp" />
+            <source srcSet={trailWeatherOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={trailWeatherOld} alt="Trail Weather home page" />
+          </picture>
           <div className="project-details">
           <h1>Trail Weather</h1>
           <hr />
@@ -89,7 +109,11 @@ export default function Projects() {
       <hr/>
       <main className="project-container">
         <div className="project1" onMouseEnter={() => setProject1(true)} onMouseLeave={() => setProject1(false)}>
-          {project1 ? content1 : <img className="project-img" src={cubeX} alt="cubeX home page" /> }
+          {project1 ? content1 : <picture>
+            <source srcSet={cubeX} type="image/webp" />
+            <source srcSet={cubeXOld} type="image/jpeg" /> 
+            <img className="project-img" src={cubeXOld} alt="cubeX home page" />
+          </picture> }
         </div>
         <div className="project1-description">
           <section className="frameworks">
@@ -101,7 +125,11 @@ export default function Projects() {
           <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p><br/>
         </div>
         <div className="project2" onMouseEnter={() => setProject2(true)} onMouseLeave={() => setProject2(false)}>
-          {project2 ? content2 : <img className="project-img" src={potterGo} alt="Potter Go home page" /> }
+          {project2 ? content2 : <picture>
+            <source srcSet={potterGo} type="image/webp" />
+            <source srcSet={potterGoOld} type="image/jpeg" /> 
+            <img className="project-img" src={potterGoOld} alt="Potter Go home page" />
+          </picture> }
         </div>
         <div className="project2-description">
           <section className="frameworks">
@@ -112,7 +140,11 @@ export default function Projects() {
           <p>A 1 day hackathon project that was made by me and one other developer, along with a group of 3 UX Designers. It is a simplistic MERN app that uses MapBox to place images at certain locations that the user would have to go to. It also reaches out to an external Harry Potter api to get information, like wands, from the Harry Potter series. Our project placed 1st in the hackathon.</p>
         </div>
         <div className="project3" onMouseEnter={() => setProject3(true)} onMouseLeave={() => setProject3(false)}>
-          {project3 ? content3 : <img className="project-img" src={adventureAwaits} alt="Adventure Awaits home page" /> }
+          {project3 ? content3 : <picture>
+            <source srcSet={adventureAwaits} type="image/webp" />
+            <source srcSet={adventureAwaitsOld} type="image/jpeg" /> 
+            <img className="project-img" src={adventureAwaitsOld} alt="Adventure Awaits home page" />
+          </picture> }
         </div>
         <div className="project3-description">
           <section className="frameworks">
@@ -123,7 +155,11 @@ export default function Projects() {
           <p>A MongoDB, Express, React, Node.js (MERN) app, that was created by a team of developers. Using React for the front end made the website very quick and responsive, while on the backend Node, Express, and MongoDB handle a JWT authentication system along with that will allow for users to have their own secure accounts.</p>
         </div>
         <div className="project4" onMouseEnter={() => setProject4(true)} onMouseLeave={() => setProject4(false)}>
-          {project4 ? content4 : (<img className="project-img" src={trailWeather} alt="Trail Weather home page" />) }
+          {project4 ? content4 : <picture>
+            <source srcSet={trailWeather} type="image/webp" />
+            <source srcSet={trailWeatherOld} type="image/jpeg" /> 
+            <img className="project-img" src={trailWeatherOld} alt="Trail Weather home page" />
+          </picture> }
         </div>
         <div className="project4-description">
           <section className="frameworks">
