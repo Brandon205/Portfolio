@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2ca8a20520e971fea6f9a215daa0c3a",
+    "revision": "ceed3f43d3d18f1cf5f72b314830c539",
     "url": "/index.html"
   },
   {
-    "revision": "cf3c81d72310a641ef68",
-    "url": "/static/css/main.ff01d210.chunk.css"
+    "revision": "1651fb34337cc372cb87",
+    "url": "/static/css/main.257fcd90.chunk.css"
   },
   {
     "revision": "81983c9c5ca2495bf29b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ef2a04ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf3c81d72310a641ef68",
-    "url": "/static/js/main.42b0fff2.chunk.js"
+    "revision": "1651fb34337cc372cb87",
+    "url": "/static/js/main.522a5473.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Resume.81c425ce.pdf"
   },
   {
-    "revision": "aa270455babe2906af307117262fc8d0",
-    "url": "/static/media/adventureAwaits.aa270455.png"
+    "revision": "5e63d53f8b3758df605a40de2fec3742",
+    "url": "/static/media/adventureAwaits.5e63d53f.webp"
   },
   {
-    "revision": "39a14eeda378266cca5494b3756f72fd",
-    "url": "/static/media/cubeX.39a14eed.png"
+    "revision": "d98092f3c7838de05c55375f5653cd63",
+    "url": "/static/media/cubeX.d98092f3.webp"
   },
   {
     "revision": "3f4ec249546a46e54bc339b112d81616",
@@ -44,19 +44,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mongodb-icon.aed124e1.svg"
   },
   {
-    "revision": "e40a293b8c068830eb50f0bd14e4f104",
-    "url": "/static/media/mountains.e40a293b.jpg"
+    "revision": "4d7b1ceea74be6707552dc74dc444bd8",
+    "url": "/static/media/mountains.4d7b1cee.webp"
   },
   {
     "revision": "232353062c82a3828cfb8498d3293d7a",
     "url": "/static/media/nodejs-icon.23235306.svg"
   },
   {
-    "revision": "9b7b0c27d276145b1e8e1e82bda32946",
-    "url": "/static/media/potterGo.9b7b0c27.png"
+    "revision": "3a1e8aeb549b71997e60b7fc6a213365",
+    "url": "/static/media/potterGo.3a1e8aeb.webp"
   },
   {
-    "revision": "0ec6c09fc8c150bda97d689230239d29",
-    "url": "/static/media/trailWeather.0ec6c09f.png"
+    "revision": "9553a42f8b567d09804737e81805ba03",
+    "url": "/static/media/trailWeather.9553a42f.webp"
   }
 ]);
