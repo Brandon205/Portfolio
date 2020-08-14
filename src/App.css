@@ -105,13 +105,12 @@ hr {
 }
 
 .resume {
-  text-decoration: none;
-  color: dodgerblue;
+  color: gray;
   font-weight: bold;
 }
 
 .resume:hover {
-  color: blue;
+  color: darkgray;
 }
 
 .sub-heading {
