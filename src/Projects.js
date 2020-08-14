@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import cubeX from './img/cubeX.png';
-import trailWeather from './img/trailWeather.png';
-import potterGo from './img/potterGo.png';
-import adventureAwaits from './img/adventureAwaits.png';
+import cubeX from './img/cubeX.webp';
+import trailWeather from './img/trailWeather.webp';
+import potterGo from './img/potterGo.webp';
+import adventureAwaits from './img/adventureAwaits.webp';
 
 export default function Projects() {
   const [project1, setProject1] = useState(false);
