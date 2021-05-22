@@ -1,4 +1,5 @@
 import React from 'react';
+import Projects from './Projects';
 import mongoDB from './img/mongodb-icon.svg';
 import graphQL from './img/graphql-icon.svg';
 import nodeJS from './img/nodejs-icon.svg';
@@ -20,6 +21,7 @@ export default function Skills() {
         <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" aria-label="CSS"><i className="fab fa-css3"></i></a>
       </div>
       <p>For a full list of my skills and qualifications check out my <a className="resume" href={resume} target="_blank" rel="noopener noreferrer">resume</a>.</p>
+      <Projects />
     </div>
   )
 }
