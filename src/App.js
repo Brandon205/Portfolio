@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Bidding from './Bidding';
 import Skills from './Skills';
@@ -6,6 +6,13 @@ import './App.css';
 
 export default function App() {
   const [top, setTop] = useState(false)
+
+  useEffect(() => {
+    let elementArr = Array.from(document.querySelectorAll('span'))
+    elementArr.forEach((element) => {
+      bounce(element)
+    })
+  }, [])
 
   const checkScroll = () => {
     if (!top && window.pageYOffset > 850) {
@@ -20,7 +27,13 @@ export default function App() {
   }
   
   const bounce = (e) => {
-    let letter = e.target
+    let letter;
+    if (!e.target) {
+      letter = e
+    } else {
+      letter = e.target
+    }
+
     if (letter.classList.contains("rubberBand")) {
       letter.classList.remove("rubberBand")
       letter.classList.add("rubberBand")
