@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import cubeX from './img/cubeX.webp';
+import { Link } from 'react-router-dom';
+import bid from './img/Bid-Summary.webp'
 import trailWeather from './img/trailWeather.webp';
 import potterGo from './img/potterGo.webp';
-import adventureAwaits from './img/adventureAwaits.webp';
-import cubeXOld from './img/cubeX.png';
+import bidOld from './img/Bid-Summary.png';
+import adventureAwaits from './img/adventureAwaits.webp'; // Delete
 import trailWeatherOld from './img/trailWeather.png';
 import potterGoOld from './img/potterGo.png';
-import adventureAwaitsOld from './img/adventureAwaits.png';
+import adventureAwaitsOld from './img/adventureAwaits.png'; // Delete
 
 export default function Projects() {
   const [project1, setProject1] = useState(false);
@@ -20,18 +21,15 @@ export default function Projects() {
       content1 = (
         <>
           <picture className="project-img-blur">
-            <source srcSet={cubeX} type="image/webp" />
-            <source srcSet={cubeXOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={cubeXOld} alt="cubeX home page" />
+            <source srcSet={bid} type="image/webp" />
+            <source srcSet={bidOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={bidOld} alt="cubeX home page" />
           </picture>
           <div className="project-details">
-            <h1>cubeX</h1>
+            <h1>Bid Analysis Software</h1>
             <hr />
             <div className="button">
-              <a href="https://sheltered-reef-38980.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-            </div>
-            <div className="button">
-              <a href="https://github.com/Brandon205/cubeX" target="_blank" rel="noopener noreferrer">Github</a>
+              <Link to="/bidding-software"><a href="#" target="_blank" rel="noopener noreferrer">Examples</a></Link>
             </div>
           </div>
         </>
@@ -110,19 +108,17 @@ export default function Projects() {
       <main className="project-container">
         <div className="project1" onMouseEnter={() => setProject1(true)} onMouseLeave={() => setProject1(false)}>
           {project1 ? content1 : <picture>
-            <source srcSet={cubeX} type="image/webp" />
-            <source srcSet={cubeXOld} type="image/jpeg" /> 
-            <img className="project-img" src={cubeXOld} alt="cubeX home page" />
+            <source srcSet={bid} type="image/webp" />
+            <source srcSet={bidOld} type="image/jpeg" /> 
+            <img className="project-img" src={bidOld} alt="bidding software summary page" />
           </picture> }
         </div>
         <div className="project1-description">
           <section className="frameworks">
-            <p>React</p>
-            <p>GraphQL</p>
-            <p>Node.js</p>
-            <p>Express</p>
+            <p>Excel</p>
+            <p>Visual Basics for Applications</p>
           </section>
-          <p>A MERN app that uses GraphQL and Apollo for all of the database calls and manipulations along with React with hooks for the front end. It is a simple app that will allow users to time themselves while solving a Rubik’s cube, it also has many data-analysis features like averages and a graph, for the user to track their times in more visual ways.</p><br/>
+          <p>An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated application called PrimeBid.</p><br/>
         </div>
         <div className="project2" onMouseEnter={() => setProject2(true)} onMouseLeave={() => setProject2(false)}>
           {project2 ? content2 : <picture>
@@ -137,7 +133,7 @@ export default function Projects() {
             <p>Node.js</p>
             <p>Express</p>
           </section>
-          <p>A 1 day hackathon project that was made by me and one other developer, along with a group of 3 UX Designers. It is a simplistic MERN app that uses MapBox to place images at certain locations that the user would have to go to. It also reaches out to an external Harry Potter api to get information, like wands, from the Harry Potter series. Our project placed 1st in the hackathon.</p>
+          <p>A 2 day hackathon project that was made by me and one other developer, along with a group of 3 UX Designers. It is a simplistic MERN app that uses MapBox to place images at certain locations that the user would have to go to. It also reaches out to an external Harry Potter api to get information, like wands, from the Harry Potter series. Our project placed 1st in the hackathon.</p>
         </div>
         <div className="project3" onMouseEnter={() => setProject3(true)} onMouseLeave={() => setProject3(false)}>
           {project3 ? content3 : <picture>
