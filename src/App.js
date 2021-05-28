@@ -6,7 +6,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main>
           <Route exact path="/" component={Skills} />
