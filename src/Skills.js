@@ -13,6 +13,10 @@ export default function Skills() {
     elementArr.forEach((element) => {
       bounce(element)
     })
+
+    return function cleanup() {
+      
+    }
   }, [])
 
   const checkScroll = () => {

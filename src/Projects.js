@@ -26,10 +26,10 @@ export default function Projects() {
             <img className="project-img-blur" src={bidOld} alt="cubeX home page" />
           </picture>
           <div className="project-details">
-            <h1>Bid Analysis Software</h1>
+            <h1>PrimeBid Excel</h1>
             <hr />
             <div className="button">
-              <Link to="/bidding-software">Examples</Link>
+              <Link to="/bidding-software">Example</Link>
             </div>
           </div>
         </>
