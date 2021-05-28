@@ -29,7 +29,7 @@ export default function Projects() {
             <h1>Bid Analysis Software</h1>
             <hr />
             <div className="button">
-              <Link to="/bidding-software"><a href="#" target="_blank" rel="noopener noreferrer">Examples</a></Link>
+              <Link to="/bidding-software">Examples</Link>
             </div>
           </div>
         </>
