@@ -4,10 +4,10 @@ import bid from './img/Bid-Summary.webp'
 import trailWeather from './img/trailWeather.webp';
 import potterGo from './img/potterGo.webp';
 import bidOld from './img/Bid-Summary.png';
-import adventureAwaits from './img/adventureAwaits.webp'; // Delete
+import hueLite from './img/HueLite.webp'; // Delete
 import trailWeatherOld from './img/trailWeather.png';
 import potterGoOld from './img/potterGo.png';
-import adventureAwaitsOld from './img/adventureAwaits.png'; // Delete
+import hueLiteOld from './img/HueLite.png'; // Delete
 
 export default function Projects() {
   const [project1, setProject1] = useState(false);
@@ -57,18 +57,18 @@ export default function Projects() {
       content3 = (
         <>
           <picture>
-            <source srcSet={adventureAwaits} type="image/webp" />
-            <source srcSet={adventureAwaitsOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={adventureAwaitsOld} alt="Adventure Awaits home page" />
+            <source srcSet={hueLite} type="image/webp" />
+            <source srcSet={hueLiteOld} type="image/jpeg" /> 
+            <img className="project-img-blur" src={hueLiteOld} alt="Adventure Awaits home page" />
           </picture>
           <div className="project-details">
-          <h1>Adventure Awaits</h1>
+          <h1>Hue Lite</h1>
           <hr />
           <div className="button">
-            <a href="https://boiling-depths-32027.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href="https://brandon205.github.io/hue-lights" target="_blank" rel="noopener noreferrer">Live Demo</a>
           </div>
             <div className="button">
-              <a href="https://github.com/Brandon205/adventure-awaits" target="_blank" rel="noopener noreferrer">Github</a>
+              <a href="https://github.com/Brandon205/hue-lights" target="_blank" rel="noopener noreferrer">Github</a>
             </div>
           </div>
         </>
@@ -99,7 +99,7 @@ export default function Projects() {
         content1 = ''
         content2 = ''
         content3 = ''
-        content4 = '';
+        content4 = ''
   }
   return (
     <div id="projects" className="projects">
@@ -118,7 +118,7 @@ export default function Projects() {
             <p>Excel</p>
             <p>Visual Basics for Applications</p>
           </section>
-          <p>An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated application called PrimeBid.</p><br/>
+          <p>An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated program called PrimeBid.</p><br/>
         </div>
         <div className="project2" onMouseEnter={() => setProject2(true)} onMouseLeave={() => setProject2(false)}>
           {project2 ? content2 : <picture>
@@ -137,18 +137,18 @@ export default function Projects() {
         </div>
         <div className="project3" onMouseEnter={() => setProject3(true)} onMouseLeave={() => setProject3(false)}>
           {project3 ? content3 : <picture>
-            <source srcSet={adventureAwaits} type="image/webp" />
-            <source srcSet={adventureAwaitsOld} type="image/jpeg" /> 
-            <img className="project-img" src={adventureAwaitsOld} alt="Adventure Awaits home page" />
+            <source srcSet={hueLite} type="image/webp" />
+            <source srcSet={hueLiteOld} type="image/jpeg" /> 
+            <img className="project-img" src={hueLiteOld} alt="Adventure Awaits home page" />
           </picture> }
         </div>
         <div className="project3-description">
           <section className="frameworks">
             <p>React</p>
-            <p>Node.js</p>
-            <p>Express</p>
+            <p>Axios</p>
+            <p>Hue API</p>
           </section>
-          <p>A MongoDB, Express, React, Node.js (MERN) app, that was created by a team of developers. Using React for the front end made the website very quick and responsive, while on the backend Node, Express, and MongoDB handle a JWT authentication system along with that will allow for users to have their own secure accounts.</p>
+          <p>Hue Lite is a simple and easy to use website that has little to no setup in order to control your Hue lights. Using React, Axios and the Hue Developer API this simple website allows for basic Hue controls from your browser with very little setup!</p>
         </div>
         <div className="project4" onMouseEnter={() => setProject4(true)} onMouseLeave={() => setProject4(false)}>
           {project4 ? content4 : <picture>
