@@ -4,10 +4,10 @@ import bid from './img/Bid-Summary.webp'
 import trailWeather from './img/trailWeather.webp';
 import potterGo from './img/potterGo.webp';
 import bidOld from './img/Bid-Summary.png';
-import hueLite from './img/HueLite.webp'; // Delete
+import hueLite from './img/HueLite.webp';
 import trailWeatherOld from './img/trailWeather.png';
 import potterGoOld from './img/potterGo.png';
-import hueLiteOld from './img/HueLite.png'; // Delete
+import hueLiteOld from './img/HueLite.png';
 
 export default function Projects() {
   const [project1, setProject1] = useState(false);

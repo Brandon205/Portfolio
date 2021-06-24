@@ -19,6 +19,11 @@
   background: #555;
 }
 
+h2 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
 #back-to-top {
   display: none;
   position: fixed;
@@ -104,6 +109,10 @@ nav a:hover {
   color: rgb(98, 93, 93);
 }
 
+img {
+  margin-bottom: 10px;
+}
+
 .header-links {
   display: flex;
   flex-direction: column;
@@ -130,10 +139,8 @@ nav a:hover {
 .video-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  height: 50vh;
 }
 
 .video-title {
@@ -145,9 +152,14 @@ nav a:hover {
 .video-description {
   margin-top: 10px;
   font-size: 1.3em;
+  margin-bottom: 10px;
 }
 
 .desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   max-width: 72vw;
   overflow: auto;
 }
@@ -161,6 +173,13 @@ nav a:hover {
   justify-content: center;
 }
 
+.App-center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .resume {
   color: gray;
   font-weight: bold;
@@ -172,6 +191,11 @@ nav a:hover {
 
 .sub-heading {
   font-size: 2.5em;
+}
+
+.usage-img {
+  width: 55%;
+  height: auto;
 }
 
 /*                                           PROJECTS CSS                                            */
@@ -416,7 +440,7 @@ picture {
 }
 
 .contact {
-  margin: 0 auto 10px auto;
+  margin: 0 auto 0 auto;
   width: 75vw;
 }
 
