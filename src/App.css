@@ -196,6 +196,7 @@ img {
 .usage-img {
   width: 55%;
   height: auto;
+  min-width: 280px;
 }
 
 /*                                           PROJECTS CSS                                            */

@@ -9,7 +9,7 @@ import trailWeatherOld from './img/trailWeather.png';
 import potterGoOld from './img/potterGo.png';
 import hueLiteOld from './img/HueLite.png';
 
-export default function Projects(props) {
+export default function Projects() {
   const [project1, setProject1] = useState(false);
   const [project2, setProject2] = useState(false);
   const [project3, setProject3] = useState(false);
