@@ -9,11 +9,15 @@ import trailWeatherOld from './img/trailWeather.png';
 import potterGoOld from './img/potterGo.png';
 import hueLiteOld from './img/HueLite.png';
 
-export default function Projects() {
+export default function Projects(props) {
   const [project1, setProject1] = useState(false);
   const [project2, setProject2] = useState(false);
   const [project3, setProject3] = useState(false);
   const [project4, setProject4] = useState(false);
+
+  const scrollTop = () => {
+    window.scrollTo({top: 0, behavior: "smooth"})
+  }
 
   let content1, content2, content3, content4;
   switch (true) {
@@ -29,7 +33,7 @@ export default function Projects() {
             <h1>PrimeBid Excel</h1>
             <hr />
             <div className="button">
-              <Link to="/bidding-software">Example</Link>
+              <Link to="/bidding-software" onClick={scrollTop}>Example</Link>
             </div>
           </div>
         </>
