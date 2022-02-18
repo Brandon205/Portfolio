@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Projects from './Projects';
+import { Canvas } from '@react-three/fiber';
 import mongoDB from './img/mongodb-icon.svg';
 import graphQL from './img/graphql-icon.svg';
 import nodeJS from './img/nodejs-icon.svg';
@@ -18,6 +19,7 @@ export default function Skills() {
       
     }
   }, [])
+
 
   const checkScroll = () => {
     if (!top && window.pageYOffset > 850) {
@@ -56,7 +58,14 @@ export default function Skills() {
     <div>
       <div className="App">
           <header id="main">
-            <div>
+            <Canvas>
+              <pointLight position={[10,10,10]} />
+              <mesh>
+                <sphereBufferGeometry />
+                <meshStandardMaterial color="hotpink" />
+              </mesh>
+            </Canvas>
+            <div id="nameContainer">
               <h1 className="name"> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>r</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>d</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>o</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>l</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>c</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>k</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>/</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>&gt;</span> </h1>
             </div>
             <h4>A Seattle-based Full Stack Web Developer</h4>
