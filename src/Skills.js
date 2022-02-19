@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Projects from './Projects';
 import { Canvas } from '@react-three/fiber';
 import mongoDB from './img/mongodb-icon.svg';
@@ -14,10 +14,6 @@ export default function Skills() {
     elementArr.forEach((element) => {
       bounce(element)
     })
-
-    return function cleanup() {
-      
-    }
   }, [])
 
 
