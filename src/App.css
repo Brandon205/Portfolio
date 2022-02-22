@@ -125,31 +125,27 @@ img {
   margin-bottom: 10px;
 }
 
-.name {
-  color: black;
-}
-
-.headerLinks {
+.headerLinkContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  width: 30vw;
-  padding: 5px;
-  background-color: rgba(47, 47, 47, 0.931);
-  border-radius: 0 0 15px 15px;
-  margin-bottom: 5px;
+  align-items: space-around;
 }
 
-.headerLinks a {
+.headerLinkContainer a {
   font-size: 1.5em;
   text-decoration: none;
   color: #cacaca;
-  margin-bottom: 5px;
 }
 
-.headerLinks a:hover {
+.headerLinkContainer a:hover {
   color: rgb(98, 93, 93);
+}
+
+.headerLink {
+  padding: 10px;
+  background-color: #555;
+  margin: 0 1vw 0 1vw;
 }
 
 .video-container {
@@ -391,6 +387,7 @@ picture {
 
 /*                                           BOUNCY CSS                                            */
 .bouncy {
+  color: white;
   cursor: default;
   display: inline-block;
   border-radius: 5px;
@@ -492,7 +489,7 @@ picture {
     margin-top: 20px;
   }
 
-  .headerLinks {
+  .headerLinkContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -500,7 +497,7 @@ picture {
     width: 45vw;
   }
 
-  .headerLinks a {
+  .headerLinkContainer a {
     margin-bottom: 0;
   }
 

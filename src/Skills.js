@@ -57,10 +57,10 @@ export default function Skills() {
               <h1 className="name"> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>r</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>d</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>o</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>n</span> <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>l</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>a</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>c</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>k</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>/</span><span className="bouncy" onMouseEnter={(e) => bounce(e)}>&gt;</span> </h1>
             </div>
             <h4>A Seattle-based Full Stack Web Developer</h4>
-            <nav className="headerLinks">
-              <a className="" href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+            <nav className="headerLinkContainer">
+              <a className='headerLink' href="#skills">Skills</a>
+              <a className='headerLink' href="#projects">Projects</a>
+              <a className='headerLink' href="#contact">Contact</a>
             </nav>
           </header>
           <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top">&nbsp;&uarr;&nbsp;</button>
