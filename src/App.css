@@ -264,6 +264,10 @@ picture {
   justify-content: space-around;
 }
 
+.project-title {
+  margin-top: 20px;
+}
+
 .project-details {
   position: absolute;
   display: flex;
