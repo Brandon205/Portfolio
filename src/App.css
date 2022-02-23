@@ -19,11 +19,6 @@
   background: #555;
 }
 
-h2 {
-  font-size: 3em;
-  text-decoration: underline;
-}
-
 #back-to-top {
   display: none;
   position: fixed;
@@ -50,24 +45,23 @@ h2 {
   z-index: 2;
 }
 
+h2 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
 main {
   background-color: #2f2f2f;
   min-height: 100vh;
 }
 
-canvas {
-  position: absolute;
-  width: 100%;
-  height: 80%;
-  z-index: 1;
-}
-
 header {
-  background-image: url(./img/mountains.webp);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: rgb(138, 138, 138);
+  background: radial-gradient(
+    circle,
+    rgba(138, 138, 138, 1) 0%,
+    rgba(75, 75, 78, 1) 100%
+  );
   height: 100vh;
   width: 100%;
   display: flex;
@@ -77,15 +71,11 @@ header {
 }
 
 header div {
-  width: 75vw;
-  border-radius: 15px;
-  background-color: rgba(128, 128, 128, 0.719);
+  margin-bottom: 2vh;
 }
 
 header h4 {
-  width: 60vw;
-  padding: 10px;
-  background-color: rgba(47, 47, 47, 0.931);
+  margin-bottom: 4vh;
 }
 
 hr {
@@ -96,12 +86,8 @@ hr {
 
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  width: 100vw;
   padding: 5px;
-  background-color: rgba(128, 128, 128, 0.719);
   margin-bottom: 10px;
 }
 
@@ -125,27 +111,22 @@ img {
   margin-bottom: 10px;
 }
 
-.headerLinkContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: space-around;
-}
-
 .headerLinkContainer a {
   font-size: 1.5em;
   text-decoration: none;
-  color: #cacaca;
+  color: #fff;
 }
 
 .headerLinkContainer a:hover {
-  color: rgb(98, 93, 93);
+  background-color: #e4212bc5;
+  color: #f1f1f1;
 }
 
 .headerLink {
   padding: 10px;
-  background-color: #555;
+  background-color: #e4212b;
   margin: 0 1vw 0 1vw;
+  transform: skew(-20deg);
 }
 
 .video-container {
