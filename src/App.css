@@ -509,9 +509,17 @@ picture {
 
 @media screen and (min-width: 900px) {
   .project-container {
-    width: 90vw;
+    /* width: 90vw;
     grid-template-rows: 225px 1.2fr 225px 1.2fr;
     grid-template-columns: 400px 1fr 400px;
+    grid-template-areas:
+      "img1 . img2"
+      "desc1 . desc2"
+      "img3 . img4"
+      "desc3 . desc4"; */
+    width: 80vw;
+    grid-template-rows: 325px 1.2fr 325px 1.2fr;
+    grid-template-columns: 351px 1fr 351px;
     grid-template-areas:
       "img1 . img2"
       "desc1 . desc2"
@@ -524,12 +532,12 @@ picture {
   }
 
   .project-img {
-    width: 400px;
+    width: 350px;
     height: 200px;
   }
 
   .project-img-blur {
-    width: 400px;
+    width: 350px;
     height: 200px;
   }
 
@@ -562,10 +570,10 @@ picture {
     height: 56px;
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1450px) {
     .project-container {
-      width: 85vw;
-      grid-template-rows: 325px 1.2fr 325px 1.2fr;
+      width: 80vw;
+      grid-template-rows: 325px 1.3fr 325px 1.3fr;
       grid-template-columns: 600px 1fr 600px;
       grid-template-areas:
         "img1 . img2"
