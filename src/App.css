@@ -211,7 +211,7 @@ picture {
   background-color: transparent;
   display: grid;
   min-height: 800px;
-  grid-template-rows: 230px 1fr 230px 1fr 230px 1fr 230px 1fr;
+  grid-template-rows: 230px 1.2fr 230px 1.2fr 230px 1.2fr 230px 1.2fr;
   grid-template-areas:
     "img1"
     "desc1"
@@ -474,7 +474,7 @@ picture {
 /*                                           MEDIA QUERIES CSS                                   */
 @media screen and (min-width: 550px) {
   .project-container {
-    grid-template-rows: 280px 1.2fr 280px 1.2fr 280px 1.2fr 280px 1fr;
+    grid-template-rows: 280px 1.2fr 280px 1.2fr 280px 1.2fr 280px 1.2fr;
     grid-template-areas:
       "img1"
       "desc1"
@@ -507,26 +507,18 @@ picture {
   }
 
   .project-img {
-    width: 470px;
+    width: 435px;
     height: 275px;
   }
 
   .project-img-blur {
-    width: 470px;
+    width: 435px;
     height: 275px;
   }
 }
 
 @media screen and (min-width: 900px) {
   .project-container {
-    /* width: 90vw;
-    grid-template-rows: 225px 1.2fr 225px 1.2fr;
-    grid-template-columns: 400px 1fr 400px;
-    grid-template-areas:
-      "img1 . img2"
-      "desc1 . desc2"
-      "img3 . img4"
-      "desc3 . desc4"; */
     width: 80vw;
     grid-template-rows: 325px 1.2fr 325px 1.2fr;
     grid-template-columns: 351px 1fr 351px;
