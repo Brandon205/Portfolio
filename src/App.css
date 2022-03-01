@@ -223,7 +223,7 @@ picture {
   background-color: transparent;
   display: grid;
   min-height: 800px;
-  grid-template-rows: 230px 1.2fr 230px 1.2fr 230px 1.2fr 230px 1.2fr;
+  grid-template-rows: 230px 1fr 230px 1fr 230px 1fr 230px 1fr;
   grid-template-areas:
     "img1"
     "desc1"
@@ -237,6 +237,7 @@ picture {
 
 .projects {
   margin-top: 35px;
+  padding: 15px
 }
 
 .project {
@@ -351,7 +352,7 @@ picture {
 
 .frameworks {
   max-height: 50px;
-  margin: 10px auto 15px auto;
+  margin: 20px auto 15px auto;
   overflow-wrap: normal;
 }
 
@@ -532,7 +533,7 @@ picture {
 @media screen and (min-width: 900px) {
   .project-container {
     width: 80vw;
-    grid-template-rows: 325px 1.2fr 325px 1.2fr;
+    grid-template-rows: 200px 1.1fr 200px 1.1fr;
     grid-template-columns: 351px 1fr 351px;
     grid-template-areas:
       "img1 . img2"
@@ -584,10 +585,33 @@ picture {
     height: 56px;
   }
 
+  @media screen and (min-width: 1100px) {
+    .project-container {
+      width: 80vw;
+      grid-template-rows: 276px 1.2fr 276px 1.2fr;
+      grid-template-columns: 400px 1fr 400px;
+      grid-template-areas:
+        "img1 . img2"
+        "desc1 . desc2"
+        "img3 . img4"
+        "desc3 . desc4";
+    }
+
+    .project-img {
+      width: 425px;
+      height: 275px;
+    }
+  
+    .project-img-blur {
+      width: 425px;
+      height: 275px;
+    }
+  }
+
   @media screen and (min-width: 1450px) {
     .project-container {
       width: 80vw;
-      grid-template-rows: 325px 1.3fr 325px 1.3fr;
+      grid-template-rows: 325px 1.2fr 325px 1.2fr;
       grid-template-columns: 600px 1fr 600px;
       grid-template-areas:
         "img1 . img2"
