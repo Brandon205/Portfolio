@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import bid from './img/Bid-Summary.webp'
-// import trailWeather from './img/trailWeather.webp';
 import guitario from './img/guitario.webp';
 import potterGo from './img/potterGo.webp';
 import bidOld from './img/Bid-Summary.png';
 import hueLite from './img/HueLite.webp';
-// import trailWeatherOld from './img/trailWeather.png';
 import guitarioOld from './img/guitario.png';
 import potterGoOld from './img/potterGo.png';
 import hueLiteOld from './img/HueLite.png';

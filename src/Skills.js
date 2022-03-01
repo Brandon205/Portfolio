@@ -63,7 +63,7 @@ export default function Skills() {
               <a className='headerLink' href="#contact">Contact</a>
             </nav>
           </header>
-          <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top">&nbsp;&uarr;&nbsp;</button>
+          <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top"><span id="top-arrow">^</span></button>
         </div>
       <div className="skills" id="skills">
         <h1 className="sub-heading">Skills</h1>
