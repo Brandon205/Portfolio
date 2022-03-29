@@ -253,18 +253,30 @@ picture {
 
 .project1 {
   grid-area: img1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project2 {
   grid-area: img2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project3 {
   grid-area: img3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project4 {
   grid-area: img4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project1,
@@ -299,7 +311,7 @@ picture {
   width: 280px;
   height: 210px;
   border-radius: 15px;
-  filter: blur(5px);
+  filter: blur(2px);
 }
 
 .project1-description {
