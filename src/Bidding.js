@@ -14,7 +14,7 @@ export default function Bidding() {
             </nav>
             <h1 className="video-title">PrimeBid Excel Usage Video:</h1>
             <div className="video-container">
-                <iframe title="Prime Bid Excel usage video" width={45 + "%"} src="https://youtube.com/embed/DWPjwMcuEyQ?mute=1"> </iframe>
+                <iframe title="Prime Bid Excel usage video" width={80 + "%"} height={100 + "%"} src="https://youtube.com/embed/DWPjwMcuEyQ?mute=1"> </iframe>
             </div>
             <div className="App-center-col">
                 <h2>The Development Process</h2>

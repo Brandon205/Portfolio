@@ -158,7 +158,7 @@ img {
 }
 
 .video-description {
-  width: 55%;
+  /* width: 80%; */
   margin: 20px 0 20px 0;
   font-size: 1.3em;
 }
@@ -248,30 +248,18 @@ picture {
 
 .project1 {
   grid-area: img1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .project2 {
   grid-area: img2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .project3 {
   grid-area: img3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .project4 {
   grid-area: img4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .project1,
@@ -538,6 +526,10 @@ picture {
   .project-img-blur {
     width: 435px;
     height: 275px;
+  }
+
+  .video-description {
+    width: 80%;
   }
 }
 
