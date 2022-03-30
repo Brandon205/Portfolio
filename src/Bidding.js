@@ -9,7 +9,7 @@ export default function Bidding() {
     return (
         <div className="App">
             <nav>
-                <Link to="/" className="">Go Back</Link>
+                <Link to="/" className="goBack">Go Back</Link>
                 <h1>PrimeBid Excel</h1>
             </nav>
             <h1 className="video-title">PrimeBid Excel Usage Video:</h1>
