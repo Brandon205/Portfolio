@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
@@ -12,6 +12,26 @@ const images = [step1, step2, step3, step4]
 export default function Bidding() {
     const [isOpen, setIsOpen] = useState(false);
     const [photoIndex, setPhotoIndex] = useState(0);
+    const [photoCaption, setPhotoCaption] = useState("");
+
+    useEffect(() => {
+        switch (photoIndex) {
+            case 0:
+                setPhotoCaption('Step 1 - Sections Page data')
+                break;
+            case 1:
+                setPhotoCaption('Step 2 - Creating a Matrix')
+                break;
+            case 2:
+                setPhotoCaption('Step 3 - Inputting data on a Matrix')
+                break;
+            case 3:
+                setPhotoCaption('Step 4 - Running the Summary Function')
+                break;
+            default:
+                setPhotoCaption('Step 1 - Sections Page data')
+        }
+    }, [photoIndex])
 
     return (
         <div className="App">
@@ -52,6 +72,7 @@ export default function Bidding() {
                     onCloseRequest={() => {setIsOpen(false)}}
                     onMovePrevRequest={() => {setPhotoIndex((photoIndex + images.length - 1) % images.length)}}
                     onMoveNextRequest={() => {setPhotoIndex((photoIndex + 1) % images.length)}}
+                    imageCaption={photoCaption}
                     />
                 )}
                 <div className="desc-container">
@@ -59,23 +80,23 @@ export default function Bidding() {
                         Starting on the Sections page you would input the Section Codes, Section Names, and the quantity of each just like below. You can then use the Autofill divisions button on the right to automatically
                         fill in the data from the Codes Master Sheet based on the rounded down Section Code number. From here the Sections page is complete, and you would then move on to creating a Matrix
                     </p>
-                    <img className="usage-img" src={step1} alt="Step 1 - sections page data" onClick={() => {setIsOpen(true)}} />
+                    <img className="usage-img" src={step1} alt="Step 1 - sections page data" onClick={() => { setPhotoIndex(0); setIsOpen(true); }} />
                     <p className="video-description">
-                        Now select the section codes that you want to make a matrix for, like seen below. You can use Ctrl on your keyboard to select multiple if needed. After selecting the codes press CTRL + SHIFT + M on your
-                        keyboard to create a matrix with the Preliminary bid and section codes selected filled out for you.
+                        Now select the section codes that you want to make a matrix for, like seen below. You can hold down CTRL on your keyboard to select multiple if needed (dragging mutliple selections works too). 
+                        After selecting the codes press CTRL + SHIFT + M on your keyboard to create a matrix with the Preliminary bid and section codes selected filled out for you.
                     </p>
-                    <img className="usage-img" src={step2} alt="Step 2 - creating a matrix" />
+                    <img className="usage-img" src={step2} alt="Step 2 - creating a matrix" onClick={() => { setPhotoIndex(1); setIsOpen(true); }} />
                     <p className="video-description">
-                        After that you will want to put in the data you have like seen below with the ones meaning that that bid covers that section. If you want you can put in data and hit the Find Best button at any
+                        After that you will want to put in the data you have like seen below with the ones meaning that that bid covers that section. If you want you can put in data and hit the "Find Best" button at any
                         point to see which bids are the best so far, you will need to delete the data that the function creates before adding or removing any more bids though, so that it doesn't get in the way. The 
                         next step is to repeat the the last step as many times as you need, then you can move on to running the final function.
                     </p>
-                    <img className="usage-img" src={step3} alt="Step 3 - inputting data on a matrix" />
+                    <img className="usage-img" src={step3} alt="Step 3 - inputting data on a matrix" onClick={() => { setPhotoIndex(2); setIsOpen(true); }} />
                     <p className="video-description">
                         You can now go to the summary page and click on Update Summary Data to see all of the information in a summary view, this adds up the cost per division, as well as allows you to see the final costs
                         and add any extra fees in the form of percentages on the subtotal.
                     </p>
-                    <img className="usage-img" src={step4} alt="Step 4 - running the summary function" />
+                    <img className="usage-img" src={step4} alt="Step 4 - running the summary function" onClick={() => { setPhotoIndex(3); setIsOpen(true); }} />
                 </div>
             </div>
         </div>
