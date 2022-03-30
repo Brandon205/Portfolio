@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Projects from './Projects';
 import mongoDB from './img/mongodb-icon.svg';
 import graphQL from './img/graphql-icon.svg';
@@ -58,9 +59,9 @@ export default function Skills() {
             </div>
             <h4>A Seattle-based Full Stack Web Developer</h4>
             <nav className="headerLinkContainer">
-              <a className='headerLink' href="#skills">Skills</a>
-              <a className='headerLink' href="#projects">Projects</a>
-              <a className='headerLink' href="#contact">Contact</a>
+            <HashLink to="/#skills" className='headerLink'>Skills</HashLink>
+            <HashLink to="/#projects" className='headerLink'>Projects</HashLink>
+            <HashLink to="/#contact" className='headerLink'>Contact</HashLink>
             </nav>
           </header>
           <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top"><span id="top-arrow">^</span></button>
