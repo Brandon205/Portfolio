@@ -1,19 +1,19 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Bidding from './Bidding';
 import Skills from './Skills';
-import CatchComponent from './CatchComponent';
+// import CatchComponent from './CatchComponent';
 import './App.css';
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main>
           <Switch>
             <Route exact path="/" component={Skills} />
             <Route exact path="/bidding-software" component={Bidding} />
-            <Route component={CatchComponent} />
+            {/* <Route component={CatchComponent} /> */}
           </Switch>
           <div className="contact">
             <h1 id="contact">Contact</h1>
@@ -27,6 +27,6 @@ export default function App() {
           </div>
         </main>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
