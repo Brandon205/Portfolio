@@ -1,8 +1,7 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Bidding from './Bidding';
 import Skills from './Skills';
-// import CatchComponent from './CatchComponent';
 import './App.css';
 
 export default function App() {
@@ -10,11 +9,8 @@ export default function App() {
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <main>
-          <Switch>
-            <Route exact path="/" component={Skills} />
-            <Route exact path="/bidding-software" component={Bidding} />
-            {/* <Route component={CatchComponent} /> */}
-          </Switch>
+          <Route exact path="/" component={Skills} />
+          <Route exact path="/bidding-software" component={Bidding} />
           <div className="contact">
             <h1 id="contact">Contact</h1>
             <hr />
