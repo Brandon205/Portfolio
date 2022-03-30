@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 import step1 from './img/step1.png';
 import step2 from './img/step2.png';
 import step3 from './img/step3.png';
 import step4 from './img/step4.png';
 
+const images = [step1, step2, step3, step4]
+
 export default function Bidding() {
+    const [isOpen, setIsOpen] = useState(false);
+    const [photoIndex, setPhotoIndex] = useState(0);
+
     return (
         <div className="App">
             <nav>
@@ -37,12 +44,22 @@ export default function Bidding() {
                     </p>
                 </div>
                 <h2>Basic Usage Overview</h2>
+                {isOpen && (
+                    <Lightbox
+                    mainSrc={images[photoIndex]}
+                    nextSrc={images[(photoIndex + 1) % images.length]}
+                    prevSrc={images[(photoIndex + images - 1) % images.length]}
+                    onCloseRequest={() => {setIsOpen(false)}}
+                    onMovePrevRequest={() => {setPhotoIndex((photoIndex + images.length - 1) % images.length)}}
+                    onMoveNextRequest={() => {setPhotoIndex((photoIndex + 1) % images.length)}}
+                    />
+                )}
                 <div className="desc-container">
                     <p className="video-description">
                         Starting on the Sections page you would input the Section Codes, Section Names, and the quantity of each just like below. You can then use the Autofill divisions button on the right to automatically
                         fill in the data from the Codes Master Sheet based on the rounded down Section Code number. From here the Sections page is complete, and you would then move on to creating a Matrix
                     </p>
-                    <img className="usage-img" src={step1} alt="Step 1 - sections page data" />
+                    <img className="usage-img" src={step1} alt="Step 1 - sections page data" onClick={() => {setIsOpen(true)}} />
                     <p className="video-description">
                         Now select the section codes that you want to make a matrix for, like seen below. You can use Ctrl on your keyboard to select multiple if needed. After selecting the codes press CTRL + SHIFT + M on your
                         keyboard to create a matrix with the Preliminary bid and section codes selected filled out for you.
