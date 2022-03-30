@@ -14,7 +14,7 @@ export default function Bidding() {
             </nav>
             <h1 className="video-title">PrimeBid Excel Usage Video:</h1>
             <div className="video-container">
-                <iframe title="Prime Bid Excel usage video" width={45 + "%"} height={80 + "%"} src="https://youtube.com/embed/DWPjwMcuEyQ?mute=1"> </iframe>
+                <iframe title="Prime Bid Excel usage video" width={45 + "%"} src="https://youtube.com/embed/DWPjwMcuEyQ?mute=1"> </iframe>
             </div>
             <div className="App-center-col">
                 <h2>The Development Process</h2>
@@ -50,7 +50,7 @@ export default function Bidding() {
                     <img className="usage-img" src={step2} alt="Step 2 - creating a matrix" />
                     <p className="video-description">
                         After that you will want to put in the data you have like seen below with the ones meaning that that bid covers that section. If you want you can put in data and hit the Find Best button at any
-                        point to see which bids are the best so far, you will need to delete the data that the function creates before adding or removing any more bids though, so that it doesn't get in the way.The 
+                        point to see which bids are the best so far, you will need to delete the data that the function creates before adding or removing any more bids though, so that it doesn't get in the way. The 
                         next step is to repeat the the last step as many times as you need, then you can move on to running the final function.
                     </p>
                     <img className="usage-img" src={step3} alt="Step 3 - inputting data on a matrix" />

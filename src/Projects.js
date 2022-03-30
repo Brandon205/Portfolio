@@ -47,7 +47,7 @@ export default function Projects() {
           <picture>
             <source srcSet={guitario} type="image/webp" />
             <source srcSet={guitarioOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={guitarioOld} alt="Trail Weather home page" />
+            <img className="project-img-blur project-img-border" src={guitarioOld} alt="Trail Weather home page" />
           </picture>
           <div className="project-details">
           <h1 style={{color: 'white'}} className="project-title">Guitario</h1>
