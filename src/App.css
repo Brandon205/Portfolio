@@ -62,6 +62,10 @@
   z-index: 2;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 h2 {
   font-size: 3em;
   text-decoration: underline;
