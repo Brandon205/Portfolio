@@ -54,31 +54,33 @@ export default function Skills() {
     <div>
       <div className="App">
           <header id="main">
-            <div id="nameContainer">
-              <h1 className="name"> 
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>R</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>A</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>N</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>D</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>O</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>N</span>&nbsp;
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>L</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>A</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>C</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>K</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>/</span>
-                <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&gt;</span>
-              </h1>
+            <div style={{position: 'relative'}}>
+              <div id="nameContainer">
+                <h1 className="name"> 
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>R</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>A</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>N</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>D</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>O</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>N</span>&nbsp;
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>B</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>L</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>A</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>C</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>K</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>/</span>
+                  <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&gt;</span>
+                </h1>
+              </div>
+              <h4>A Seattle-based Full Stack Web Developer</h4>
+              <nav className="headerLinkContainer">
+                <HashLink to="/#skills" className='headerLink'>Skills</HashLink>
+                <HashLink to="/#projects" className='headerLink'>Projects</HashLink>
+                <HashLink to="/#contact" className='headerLink'>Contact</HashLink>
+              </nav>
             </div>
-            <h4>A Seattle-based Full Stack Web Developer</h4>
-            <nav className="headerLinkContainer">
-            <HashLink to="/#skills" className='headerLink'>Skills</HashLink>
-            <HashLink to="/#projects" className='headerLink'>Projects</HashLink>
-            <HashLink to="/#contact" className='headerLink'>Contact</HashLink>
-            </nav>
           </header>
           <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top"><span id="top-arrow">^</span></button>
         </div>
