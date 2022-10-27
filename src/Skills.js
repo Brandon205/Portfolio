@@ -6,6 +6,10 @@ import graphQL from './img/graphql-icon.svg';
 import nodeJS from './img/nodejs-icon.svg';
 import resume from './img/Resume.pdf';
 
+import { AiOutlineProject } from 'react-icons/ai';
+import { BiCodeAlt } from 'react-icons/bi';
+import { CgProfile } from 'react-icons/cg';
+
 export default function Skills() {
   const [top, setTop] = useState(false)
 
@@ -76,9 +80,9 @@ export default function Skills() {
               </div>
               <h4>A Seattle-based Full Stack Web Developer</h4>
               <nav className="headerLinkContainer">
-                <HashLink to="/#skills" className='headerLink'>Skills</HashLink>
-                <HashLink to="/#projects" className='headerLink'>Projects</HashLink>
-                <HashLink to="/#contact" className='headerLink'>Contact</HashLink>
+                <HashLink to="/#skills" className='headerLink'><BiCodeAlt /> Skills</HashLink>
+                <HashLink to="/#projects" className='headerLink'><AiOutlineProject /> Projects</HashLink>
+                <HashLink to="/#contact" className='headerLink'><CgProfile /> Contact</HashLink>
               </nav>
             </div>
           </header>
