@@ -54,7 +54,7 @@ export default function Skills() {
     <div>
       <div className="App">
           <header id="main">
-            <div style={{position: 'relative'}}>
+            <div className='header-div'>
               <div id="nameContainer">
                 <h1 className="name"> 
                   <span className="bouncy" onMouseEnter={(e) => bounce(e)}>&lt;</span>

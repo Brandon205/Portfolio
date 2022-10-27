@@ -3,7 +3,10 @@
   scroll-behavior: smooth;
 }
 
-/* #292C34 */
+:root {
+  --main-clr: #306174;
+  --main-clr-hover: #1B3B4B;
+}
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -86,9 +89,9 @@ header::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./img/bkg3.webp');
+  background-image: url('./img/bkg.webp');
   background-size: cover;
-  filter: blur(1px) brightness(65%);
+  filter: blur(1px) brightness(75%);
 }
 
 header div {
@@ -140,15 +143,22 @@ img {
 }
 
 .headerLinkContainer a:hover {
-  background-color: #e4212bc5;
-  color: #f1f1f1;
+  background-color: var(--main-clr-hover);
+  color: lightgray;
 }
 
 .headerLink {
   padding: 10px;
-  background-color: #e4212b;
+  background-color: var(--main-clr);
   margin: 0 1vw 0 1vw;
   transform: skew(-20deg);
+}
+
+.header-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .video-container {
