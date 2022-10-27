@@ -6,6 +6,8 @@
 :root {
   --main-clr: #306174;
   --main-clr-hover: #1B3B4B;
+
+  --main-bkg-color: #122933;
 }
 
 ::-webkit-scrollbar {
@@ -32,7 +34,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #888888;
+  background-color: var(--main-bkg-color);
   color: white;
   cursor: pointer;
   padding: 20px;
@@ -72,7 +74,7 @@ h2 {
 }
 
 main {
-  background-color: #292C34;
+  background-color: var(--main-bkg-color);
   min-height: 100vh;
 }
 
@@ -108,8 +110,9 @@ header h4 {
 }
 
 hr {
-  width: 90%;
-  border: 2px dashed gray;
+  width: 85%;
+  border: 2px solid rgba(128, 128, 128, 0.526);
+  border-radius: 5px;
   margin: 0 auto 10px auto;
 }
 
@@ -217,8 +220,8 @@ img {
 }
 
 .resume {
-  color: gray;
-  font-weight: bold;
+  color: lightgray;
+  font-weight: 500;
 }
 
 .resume:hover {
@@ -400,7 +403,7 @@ picture {
 
 /*                                           SKILLS CSS                                             */
 .skills {
-  width: 85vw;
+  width: 90vw;
   margin: 25px auto 15px auto;
   overflow: auto;
 }
@@ -417,12 +420,21 @@ picture {
   margin: 15px 15px 0 15px;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+}
+
 .skill-atag {
-  color: black;
+  font-size: 4em;
+  color: white;
 }
 
 .skill-atag:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .fab {
