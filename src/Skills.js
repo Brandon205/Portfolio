@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import Projects from './Projects';
-// import mongoDB from './img/mongodb-icon.svg';
-// import graphQL from './img/graphql-icon.svg';
-// import nodeJS from './img/nodejs-icon.svg';
-import resume from './img/Resume.pdf';
+import resume from './img/resume.pdf';
 
 import { AiOutlineProject } from 'react-icons/ai';
 import { BiCodeAlt } from 'react-icons/bi';
@@ -95,15 +92,6 @@ export default function Skills() {
         <h1 className="sub-heading">Skills</h1>
         <hr />
         <div className='skills-container'>
-          {/* <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="Javascript"><i className="fab fa-js"></i></a>
-          <a className="skill-atag" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" aria-label="React"><i className="fab fa-react"></i></a>
-          <a className="skill-atag" href="https://graphql.org/" target="_blank" rel="noopener noreferrer" aria-label="GraphQL"><img className="skill-icon-img" src={graphQL} alt="mongodb logo"/></a>
-          <a className="skill-atag" href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" aria-label="Node.js"><img className="skill-icon-img" src={nodeJS} alt="mongodb logo"/></a>
-          <a className="skill-atag" href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer" aria-label="MongoDB"><img className="skill-icon-img" src={mongoDB} alt="mongodb logo"/></a>
-          <a className="skill-atag" href="https://www.python.org/" target="_blank" rel="noopener noreferrer" aria-label="Python"><i className="fab fa-python"></i></a>
-          <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" aria-label="HTML"><i className="fab fa-html5"></i></a>
-          <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" aria-label="CSS"><i className="fab fa-css3"></i></a> */}
-
           <a className="skill-atag" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="Javascript"><SiJavascript /></a>
           <a className="skill-atag" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" aria-label="React"><FaReact /></a>
           <a className="skill-atag" href="https://reactnative.dev/" target="_blank" rel="noopener noreferrer" aria-label="React Native"><TbBrandReactNative /></a>
