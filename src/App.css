@@ -7,6 +7,8 @@
   --main-clr: #306174;
   --main-clr-hover: #1B3B4B;
 
+  --secondary-text: #575757;
+
   --main-bkg-color: #122933;
 }
 
@@ -245,12 +247,58 @@ img {
 }
 
 /*                                           PROJECTS CSS                                            */
-picture {
+/* picture {
   font-size: 0.5em;
   padding: 15px;
-}
+} */
 
 .project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  text-align: left;
+  background-color: #000;
+  border-radius: 1rem;
+  margin: 20px 0;
+}
+
+.proj-desc {
+  padding: 1rem;
+}
+
+.proj-heading-link {
+  display: block;
+  margin: 0.25rem auto 0 auto; 
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.readmore {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--main-clr);
+  padding-right: 2em;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.desc {
+  color: var(--secondary-text);
+}
+
+/* .project-container {
   background-color: transparent;
   display: grid;
   min-height: 800px;
@@ -318,7 +366,7 @@ picture {
   align-items: center;
   color: black;
   margin-top: 10px;
-}
+} */
 
 .project-img {
   width: 280px;
@@ -327,17 +375,17 @@ picture {
 }
 
 .project-img-blur {
-  width: 280px;
-  height: 210px;
-  border-radius: 15px;
-  filter: blur(2px);
+  width: 350px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0 ;
+  border-bottom: 1px solid black;
 }
 
-.project-img-border {
+/* .project-img-border {
   border: 1px solid white;
-}
+} */
 
-.project1-description {
+/* .project1-description {
   grid-area: desc1;
   display: flex;
   flex-direction: column;
@@ -363,7 +411,7 @@ picture {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
+} */
 
 .button {
   font-size: 1.25em;
@@ -386,19 +434,25 @@ picture {
 }
 
 .frameworks {
-  max-height: 50px;
+  /* max-height: 50px;
   margin: 20px auto 15px auto;
-  overflow-wrap: normal;
+  overflow-wrap: normal; */
+  display: flex;
+  gap: 0.5rem;
 }
 
 .frameworks p {
-  margin: 0 5px;
+  display: inline;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  /* margin: 0 5px;
   display: inline;
   color: white;
   border: 1px solid black;
   background-color: black;
   box-shadow: 1px 2px 7px black;
-  padding: 5px;
+  padding: 5px; */
 }
 
 /*                                           SKILLS CSS                                             */
@@ -568,10 +622,10 @@ picture {
     height: 275px;
   }
 
-  .project-img-blur {
+  /* .project-img-blur {
     width: 435px;
     height: 275px;
-  }
+  } */
 
   .video-description {
     width: 80%;
@@ -594,15 +648,15 @@ picture {
     margin-top: 25px;
   }
 
-  .project-img {
+  /* .project-img {
     width: 350px;
     height: 200px;
-  }
+  } */
 
-  .project-img-blur {
+  /* .project-img-blur {
     width: 350px;
     height: 200px;
-  }
+  } */
 
   .name {
     font-size: 5em;
@@ -645,15 +699,15 @@ picture {
         "desc3 . desc4";
     }
 
-    .project-img {
+    /* .project-img {
       width: 425px;
       height: 275px;
-    }
+    } */
   
-    .project-img-blur {
+    /* .project-img-blur {
       width: 425px;
       height: 275px;
-    }
+    } */
   }
 
   @media screen and (min-width: 1450px) {
@@ -677,10 +731,10 @@ picture {
       height: 300px;
     }
 
-    .project-img-blur {
+    /* .project-img-blur {
       width: 600px;
       height: 300px;
-    }
+    } */
 
     .name {
       font-size: 4em;

@@ -19,21 +19,21 @@ export default function Projects() {
       <h1 className="sub-heading">Projects</h1>
       <hr style={{marginBottom: 40}} />
       <main className="project-container">
-        <div className="project1">
+        {/* <div className="project1">
           <>
-          <picture className="project-img-blur">
-            <source srcSet={bid} type="image/webp" />
-            <source srcSet={bidOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={bidOld} alt="cubeX home page" />
-          </picture>
-          <div className="project-details">
-            <h1 className="project-title">PrimeBid Excel</h1>
-            <hr />
-            <div className="button">
-              <Link to="/bidding-software" onClick={scrollTop}>Example</Link>
+            <picture className="project-img-blur">
+              <source srcSet={bid} type="image/webp" />
+              <source srcSet={bidOld} type="image/jpeg" />
+              <img className="project-img-blur" src={bidOld} alt="cubeX home page" />
+            </picture>
+            <div className="project-details">
+              <h1 className="project-title">PrimeBid Excel</h1>
+              <hr />
+              <div className="button">
+                <Link to="/bidding-software" onClick={scrollTop}>Example</Link>
+              </div>
             </div>
-          </div>
-        </>
+          </>
         </div>
         <div className="project1-description">
           <section className="frameworks">
@@ -41,7 +41,25 @@ export default function Projects() {
             <p>Visual Basics for Applications</p>
           </section>
           <p>An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated program called PrimeBid.</p><br/>
+        </div> */}
+        <div className="proj-card">
+          <picture className="project-img-blur">
+            <source srcSet={bid} type="image/webp" />
+            <source srcSet={bidOld} type="image/jpeg" />
+            <img className="project-img-blur" src={bidOld} alt="Prime Bid Summary Page" />
+          </picture>
+          <div className="proj-desc">
+            <a href='/bidding-software' className='proj-heading-link'>Prime Bid Excel</a>
+            <div className="frameworks">
+              <p>Excel</p>
+              <p>Visual Basics for Applications</p>
+            </div>
+            <p className="desc">An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated program called PrimeBid.</p>
+
+            <a href="/bidding-software" className="readmore">Example</a>
+          </div>
         </div>
+
         <div className="project2">
           <>
           <picture>
