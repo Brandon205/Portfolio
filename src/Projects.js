@@ -19,29 +19,7 @@ export default function Projects() {
       <h1 className="sub-heading">Projects</h1>
       <hr style={{marginBottom: 40}} />
       <main className="project-container">
-        {/* <div className="project1">
-          <>
-            <picture className="project-img-blur">
-              <source srcSet={bid} type="image/webp" />
-              <source srcSet={bidOld} type="image/jpeg" />
-              <img className="project-img-blur" src={bidOld} alt="cubeX home page" />
-            </picture>
-            <div className="project-details">
-              <h1 className="project-title">PrimeBid Excel</h1>
-              <hr />
-              <div className="button">
-                <Link to="/bidding-software" onClick={scrollTop}>Example</Link>
-              </div>
-            </div>
-          </>
-        </div>
-        <div className="project1-description">
-          <section className="frameworks">
-            <p>Excel</p>
-            <p>Visual Basics for Applications</p>
-          </section>
-          <p>An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated program called PrimeBid.</p><br/>
-        </div> */}
+
         <div className="proj-card">
           <picture className="project-img-blur">
             <source srcSet={bid} type="image/webp" />
@@ -60,32 +38,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* <div className="project2">
-          <>
-          <picture>
-            <source srcSet={guitario} type="image/webp" />
-            <source srcSet={guitarioOld} type="image/jpeg" /> 
-            <img className="project-img-blur project-img-border" src={guitarioOld} alt="Trail Weather home page" />
-          </picture>
-          <div className="project-details">
-          <h1 style={{color: 'white'}} className="project-title">Guitario</h1>
-          <hr />
-          <div className="button">
-            <a href="https://brandon205.github.io/guitario/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-            <div className="button">
-              <a href="https://github.com/Brandon205/guitario" target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
-          </div>
-        </>
-        </div>
-        <div className="project2-description">
-          <section className="frameworks">
-            <p>React Native</p>
-            <p>Web Audio API</p>
-          </section>
-          <p></p>
-        </div> */}
         <div className="proj-card">
           <picture className="project-img-blur">
             <source srcSet={guitario} type="image/webp" />
@@ -105,33 +57,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* <div className="project3">
-          <>
-          <picture>
-            <source srcSet={hueLite} type="image/webp" />
-            <source srcSet={hueLiteOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={hueLiteOld} alt="Adventure Awaits home page" />
-          </picture>
-          <div className="project-details">
-          <h1 className="project-title">Hue Lite</h1>
-          <hr />
-          <div className="button">
-            <a href="https://brandon205.github.io/hue-lights" target="_blank" rel="noopener noreferrer">Live Demo</a>
-          </div>
-            <div className="button">
-              <a href="https://github.com/Brandon205/hue-lights" target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
-          </div>
-        </>
-        </div>
-        <div className="project3-description">
-          <section className="frameworks">
-            <p>React</p>
-            <p>Axios</p>
-            <p>Hue API</p>
-          </section>
-          <p>Hue Lite is a simple and easy to use website that has little to no setup in order to control your Hue lights. Using React, Axios and the Hue Developer API this simple website allows for basic Hue controls from your browser with very little setup!</p>
-        </div> */}
         <div className="proj-card">
           <picture className="project-img-blur">
             <source srcSet={dirtless} type="image/webp" />
@@ -150,30 +75,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* <div className="project4">
-          <>
-          <picture>
-            <source srcSet={potterGo} type="image/webp" />
-            <source srcSet={potterGoOld} type="image/jpeg" /> 
-            <img className="project-img-blur" src={potterGoOld} alt="Potter Go home page" />
-          </picture>
-          <div className="project-details">
-            <h1 className="project-title">PotterGo</h1>
-            <hr />
-            <div className="button">
-              <a href="https://github.com/Brandon205/PotterGo" target="_blank" rel="noopener noreferrer">Github</a>
-            </div>
-          </div>
-        </>
-        </div>
-        <div className="project4-description">
-          <section className="frameworks">
-            <p>EJS</p>
-            <p>Node.js</p>
-            <p>Express</p>
-          </section>
-          <p></p>
-        </div> */}
         <div className="proj-card">
           <picture className="project-img-blur">
             <source srcSet={potterGo} type="image/webp" />
