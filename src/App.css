@@ -45,7 +45,7 @@
 }
 
 #back-to-top:hover {
-  background-color: rgb(41, 41, 41);
+  background-color: var(--main-clr-hover);
 }
 
 #top-arrow {
@@ -459,7 +459,6 @@ img {
 
 /*                                           MEDIA QUERIES CSS                                   */
 @media screen and (min-width: 550px) {
-
   .name {
     font-size: 3.2em;
   }
@@ -470,7 +469,6 @@ img {
 }
 
 @media screen and (min-width: 900px) {
-
   .name {
     font-size: 5em;
     color: black;
@@ -495,12 +493,19 @@ img {
     font-size: 1.5em;
   }
 
-  @media screen and (min-width: 1450px) {
+  .project-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+  
 
-    .name {
-      font-size: 4em;
-      color: black;
-      padding: 5px;
-    }
+@media screen and (min-width: 1450px) {
+  .name {
+    font-size: 4em;
+    color: black;
+    padding: 5px;
   }
 }
