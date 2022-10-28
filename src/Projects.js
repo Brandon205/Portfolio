@@ -27,14 +27,14 @@ export default function Projects() {
             <img className="project-img-blur" src={bidOld} alt="Prime Bid Summary Page" />
           </picture>
           <div className="proj-desc">
-            <a href='/bidding-software' className='proj-heading-link'>Prime Bid Excel</a>
+            <Link to="/bidding-software" onClick={scrollTop} className="proj-heading-link">Prime Bid Excel</Link>
             <div className="frameworks">
               <p>Excel</p>
               <p>Visual Basics for Applications</p>
             </div>
             <p className="desc">An Excel-based software that uses a large VBA codebase to take and analyze bids, finding the most cost effective ones. Has many features inspired by a now deprecated program called PrimeBid.</p>
 
-            <a href="/bidding-software" className="readmore">Example</a>
+            <Link to="/bidding-software" onClick={scrollTop} className="readmore">Example</Link>
           </div>
         </div>
 
