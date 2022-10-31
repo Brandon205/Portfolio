@@ -56,6 +56,7 @@
   right: 19px;
   padding: 20px;
   border-radius: 50%;
+  transition: 0.25s;
 }
 
 #top-arrow:hover {
@@ -78,7 +79,6 @@ h2 {
 
 main {
   background-color: var(--main-bkg-color);
-  min-height: 100vh;
 }
 
 header {
@@ -100,7 +100,7 @@ header::before {
   height: 100%;
   background-image: url('./img/bkg.webp');
   background-size: cover;
-  filter: blur(1px) brightness(75%);
+  filter: blur(3px) brightness(45%);
 }
 
 header div {
@@ -146,10 +146,26 @@ img {
   margin-bottom: 10px;
 }
 
+footer {
+  margin: 0;
+  width: 100%;
+  background-color: #010305;
+  padding: 1.5rem 0;
+}
+
+footer h1 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-bottom: 15px;
+}
+
 .headerLinkContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   gap: 1rem;
   min-width: 45vw;
 }
@@ -160,7 +176,7 @@ img {
   gap: 0.25rem;
   border-radius: 1rem;
   outline: 3px solid var(--main-clr);
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 1.5em;
   text-decoration: none;
   color: #ffffff;
@@ -268,12 +284,15 @@ img {
 }
 
 .proj-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   padding: 0 1rem 1rem 1rem;
 }
 
 .proj-heading-link {
   display: block;
-  margin: 0.25rem auto 0 auto; 
   text-decoration: none;
   font-size: 1.75em;
   font-weight: 600;
@@ -360,10 +379,11 @@ img {
 .skill-atag {
   font-size: 4em;
   color: white;
+  transition: 0.5s;
 }
 
 .skill-atag:hover {
-  opacity: 0.7;
+  opacity: 0.25;
 }
 
 .fab {
@@ -412,49 +432,21 @@ img {
 }
 
 /*                                           CONTACT CSS                                         */
-.fa {
-  padding: 7px;
-  font-size: 1.5em;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-twitter {
-  background: #55acee;
+.social-icon {
   color: white;
-  margin-right: 10px;
-  border-radius: 15px;
+  font-size: 3em;
+  transition: 0.5s;
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-  margin-right: 10px;
-  border-radius: 15px;
-}
-
-.fa-github-square {
-  background: black;
-  color: white;
-  border-radius: 15px;
-}
-
-.contact {
-  margin: 65px auto 0 auto;
-  width: 75vw;
-}
-
-.contact h1 {
-  margin-bottom: 10px;
-}
-
-.contact p {
-  margin-bottom: 15px;
+.social-icon:hover {
+  color: gray;
 }
 
 /*                                           MEDIA QUERIES CSS                                   */
@@ -495,12 +487,12 @@ img {
 
   .project-container {
     flex-direction: row;
+    align-items: inherit;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
   }
 }
-  
 
 @media screen and (min-width: 1450px) {
   .name {
