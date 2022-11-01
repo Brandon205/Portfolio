@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-import step1 from './img/step1.png';
-import step2 from './img/step2.png';
-import step3 from './img/step3.png';
-import step4 from './img/step4.png';
+import step1 from './img/step1.webp';
+import step2 from './img/step2.webp';
+import step3 from './img/step3.webp';
+import step4 from './img/step4.webp';
+import { MdArrowBack } from 'react-icons/md';
 
 const images = [step1, step2, step3, step4]
 
@@ -36,7 +37,7 @@ export default function Bidding() {
     return (
         <div className="App">
             <nav>
-                <Link to="/" className="goBack">Go Back</Link>
+                <Link to="/" className="goBack"><MdArrowBack /></Link>
                 <h1>PrimeBid Excel</h1>
                 <div></div>
             </nav>

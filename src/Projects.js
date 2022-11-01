@@ -24,7 +24,7 @@ export default function Projects() {
           <picture className="project-img-blur">
             <source srcSet={bid} type="image/webp" />
             <source srcSet={bidOld} type="image/jpeg" />
-            <img className="project-img-blur" src={bidOld} alt="Prime Bid Summary Page" />
+            <img className="project-img-blur" src={bid} alt="Prime Bid Summary Page" />
           </picture>
           <div className="proj-desc">
             <Link to="/bidding-software" onClick={scrollTop} className="proj-heading-link">Prime Bid Excel</Link>
@@ -42,7 +42,7 @@ export default function Projects() {
           <picture className="project-img-blur">
             <source srcSet={guitario} type="image/webp" />
             <source srcSet={guitarioOld} type="image/jpeg" />
-            <img className="project-img-blur" src={guitarioOld} alt="Guitario Home Page" />
+            <img className="project-img-blur" src={guitario} alt="Guitario Home Page" />
           </picture>
           <div className="proj-desc">
             <a href='https://brandon205.github.io/guitario/' className='proj-heading-link'>Guitario</a>
@@ -61,7 +61,7 @@ export default function Projects() {
           <picture className="project-img-blur">
             <source srcSet={dirtless} type="image/webp" />
             <source srcSet={dirtlessOld} type="image/jpeg" />
-            <img className="project-img-blur" src={dirtlessOld} alt="Dirt-Less Detailing Home Page" />
+            <img className="project-img-blur" src={dirtless} alt="Dirt-Less Detailing Home Page" />
           </picture>
           <div className="proj-desc">
             <a href='https://dirtless-detailing.vercel.app/' className='proj-heading-link'>Dirt-Less Detailing</a>
@@ -79,7 +79,7 @@ export default function Projects() {
           <picture className="project-img-blur">
             <source srcSet={potterGo} type="image/webp" />
             <source srcSet={potterGoOld} type="image/jpeg" />
-            <img className="project-img-blur" src={potterGoOld} alt="PotterGO Home Page" />
+            <img className="project-img-blur" src={potterGo} alt="PotterGO Home Page" />
           </picture>
           <div className="proj-desc">
             <a href='https://github.com/Brandon205/PotterGo' className='proj-heading-link'>PotterGO</a>
