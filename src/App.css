@@ -11,6 +11,7 @@
   --secondary-text: rgb(187, 187, 187);
 
   --main-bkg-color: #122933;
+  --nav-bkg-clr: #223C47;
 }
 
 ::-webkit-scrollbar {
@@ -121,14 +122,21 @@ hr {
 
 nav {
   display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
   align-items: center;
-  padding: 5px;
-  margin-bottom: 10px;
+  box-shadow: 0 5px 12px black;
+  background-color: var(--nav-bkg-clr);
+}
+
+nav div {
+  width: 100px;
 }
 
 nav h1 {
-  font-size: 2em;
-  font-weight: lighter;
+  font-size: 2.5em;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 nav a {
@@ -136,10 +144,11 @@ nav a {
   text-decoration: none;
   color: #cacaca;
   margin-bottom: 5px;
+  transition: 0.5s;
 }
 
 nav a:hover {
-  color: rgb(98, 93, 93);
+  color: rgb(133, 128, 128);
 }
 
 img {
@@ -196,21 +205,23 @@ footer p {
 }
 
 .video-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 50vh;
+  position: relative;
+  width: clamp(250px, 65vw, 1000px);
+  height: 250px;
+  margin: 2rem auto;
 }
 
 .video-title {
-  font-size: 2.5em;
-  font-weight: lighter;
-  margin-bottom: 10px;
+  font-size: 3em;
+  margin: 3rem auto 2rem auto; 
+  text-decoration: none;
 }
 
 .video-description {
-  margin: 20px 0 20px 0;
+  margin: 1.5rem 0 1.5rem 0;
   font-size: 1.3em;
+  line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 .desc-container {
@@ -236,6 +247,7 @@ footer p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .resume {
@@ -253,9 +265,10 @@ footer p {
 }
 
 .usage-img {
-  width: 55%;
+  width: 100%;
   height: auto;
   min-width: 280px;
+  cursor: pointer;
 }
 
 .goBack {
@@ -456,7 +469,7 @@ footer p {
   }
 
   .video-description {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -491,6 +504,10 @@ footer p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3rem;
+  }
+
+  .video-container {
+    height: 400px;
   }
 }
 

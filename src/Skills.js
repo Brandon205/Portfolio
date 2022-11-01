@@ -79,11 +79,11 @@ export default function Skills() {
                 </h1>
               </div>
               <h4>A Seattle-based Full Stack Web Developer</h4>
-              <nav className="headerLinkContainer">
+              <div className="headerLinkContainer">
                 <HashLink to="/#skills" className='headerLink'><BiCodeAlt /> Skills</HashLink>
                 <HashLink to="/#projects" className='headerLink'><AiOutlineProject /> Projects</HashLink>
                 <HashLink to="/#contact" className='headerLink'><CgProfile /> Contact</HashLink>
-              </nav>
+              </div>
             </div>
           </header>
           <button style={{display: top ? "block" : "none"}} onClick={scrollTop} id="back-to-top" title="Go to top"><span id="top-arrow">^</span></button>
