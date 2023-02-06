@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc8d30a5.css",
-    "main.js": "/static/js/main.9faffbaf.js",
-    "static/media/dirtlessDetailingOld.png": "/static/media/dirtlessDetailingOld.c714115f44c63ff74460.png",
+    "main.css": "/static/css/main.f8ed81fe.css",
+    "main.js": "/static/js/main.bb1af61d.js",
+    "static/media/dirtlessDetailingOld.png": "/static/media/dirtlessDetailingOld.9efb3402f874477ea009.png",
     "static/media/potterGo.png": "/static/media/potterGo.c04d1080658cd82027f7.png",
     "static/media/Bid-Summary.png": "/static/media/Bid-Summary.a2c973dc34a7ba411f9a.png",
     "static/media/potterGo.webp": "/static/media/potterGo.2c39a9a37020aa48c7b2.webp",
     "static/media/Bid-Summary.webp": "/static/media/Bid-Summary.b356e0fe6a01410e17a2.webp",
     "static/media/bkg.webp": "/static/media/bkg.8e3f03cd5dfda679ef84.webp",
     "static/media/step4.webp": "/static/media/step4.f59b05c1399a29a32aa5.webp",
-    "static/media/dirtlessDetailing.webp": "/static/media/dirtlessDetailing.863d2a96969a66694ed7.webp",
+    "static/media/dirtlessDetailing.webp": "/static/media/dirtlessDetailing.dffc071861e70af6cb1c.webp",
     "static/media/step2.webp": "/static/media/step2.a49bd01dad5ca1e3b7ad.webp",
     "static/media/step1.webp": "/static/media/step1.d004762fa6ac8c91524a.webp",
     "static/media/step3.webp": "/static/media/step3.0b38ebc355b53af7c498.webp",
@@ -17,11 +17,11 @@
     "static/media/resume.pdf": "/static/media/resume.d4145d9a4df5f5843f08.pdf",
     "static/media/guitario.webp": "/static/media/guitario.db826635a67043fcfac2.webp",
     "index.html": "/index.html",
-    "main.bc8d30a5.css.map": "/static/css/main.bc8d30a5.css.map",
-    "main.9faffbaf.js.map": "/static/js/main.9faffbaf.js.map"
+    "main.f8ed81fe.css.map": "/static/css/main.f8ed81fe.css.map",
+    "main.bb1af61d.js.map": "/static/js/main.bb1af61d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc8d30a5.css",
-    "static/js/main.9faffbaf.js"
+    "static/css/main.f8ed81fe.css",
+    "static/js/main.bb1af61d.js"
   ]
 }
