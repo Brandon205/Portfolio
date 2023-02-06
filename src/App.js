@@ -18,9 +18,9 @@ export default function App() {
             <hr />
             <p>Feel free to send me a message on LinkedIn or email me at brandonblack02@gmail.com</p>
             <div className="icons">
-              <a href="https://twitter.com/brandonblack02" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>
-              <a href="https://www.linkedin.com/in/brandonblack02/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
               <a href="https://github.com/Brandon205" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Github"><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/brandonblack02/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+              <a href="https://twitter.com/brandonblack02" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a>
             </div>
           </footer>
         </main>
